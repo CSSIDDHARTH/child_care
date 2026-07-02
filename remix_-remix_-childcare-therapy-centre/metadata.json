@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Childcare Therapy Centre",
+  "description": "A premium, professional, and trustworthy website for Childcare Therapy Centre, a unit of Changing Minds Mental Health Care, specializing in evidence-based pediatric therapy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
