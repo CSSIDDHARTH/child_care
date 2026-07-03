@@ -58,7 +58,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="font-sans text-lg md:text-xl text-slate-800 font-medium leading-[1.6] w-full mb-8 drop-shadow-sm"
+            className="quote-handwriting text-2xl md:text-3xl w-full mb-8"
           >
             "A safe, supportive and stimulating environment for every child to learn, grow and thrive."
           </motion.p>

@@ -20,6 +20,14 @@ export default function TherapyApproach() {
       title: "Behavior Therapy / ABA Therapy",
       evidence: "Informed by behavioral science, positive reinforcement, and emotional regulation strategies to replace challenging habits with healthy social coping skills.",
     },
+    {
+      title: "Developmental Assessment & Psychological Testing",
+      evidence: "Rooted in psychometric science and standardized pediatric scales (e.g., Bayley, WPPSI, CARS), our evaluations provide objective, reproducible data to guide accurate diagnoses and targeted intervention pathways.",
+    },
+    {
+      title: "Parent Counseling & Family Support",
+      evidence: "Draws from attachment theory, systemic family therapy, and evidence-based caregiver coaching models to strengthen parent-child bonds, reduce carer stress, and build sustainable home-based support strategies.",
+    },
   ];
 
   return (
@@ -58,7 +66,7 @@ export default function TherapyApproach() {
                 <h3 className="text-lg font-medium font-display text-white">Interdisciplinary Alignment</h3>
               </div>
               <p className="text-sm text-slate-300 leading-relaxed">
-                By integrating <span className="text-white font-semibold">Speech Therapy</span>, <span className="text-white font-semibold">Occupational Therapy & Sensory Integration</span>, <span className="text-white font-semibold">Special Education</span>, and <span className="text-white font-semibold">Behavior Therapy / ABA Therapy</span> under a unified clinical framework, our clinicians address all aspects of development in synergy.
+                By integrating <span className="text-white font-semibold">Speech Therapy</span>, <span className="text-white font-semibold">Occupational Therapy & Sensory Integration</span>, <span className="text-white font-semibold">Special Education</span>, <span className="text-white font-semibold">Behavior Therapy / ABA Therapy</span>, <span className="text-white font-semibold">Developmental Assessment & Psychological Testing</span>, and <span className="text-white font-semibold">Parent Counseling & Family Support</span> under a unified clinical framework, our clinicians address all aspects of development in synergy.
               </p>
             </div>
 
@@ -85,7 +93,7 @@ export default function TherapyApproach() {
 
           {/* Academic Approach Detail Cards */}
           <div className="lg:col-span-7 space-y-6">
-            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Scientific Support for Our 4 Pillars:</h4>
+            <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">Scientific Support for Our 6 Pillars:</h4>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {approaches.map((app, index) => (
@@ -115,8 +123,8 @@ export default function TherapyApproach() {
               <div className="flex-shrink-0 bg-brand-green/20 text-brand-green p-2 rounded-lg">
                 <Check className="h-4.5 w-4.5 stroke-[3]" />
               </div>
-              <p className="text-xs text-slate-400 leading-normal italic">
-                Our child-centric model applies positive reinforcement, sensory integration, and structured therapeutic communication, which peer-reviewed studies show yield significantly higher long-term social success.
+              <p className="quote-handwriting-dark text-base md:text-lg">
+                "Our child-centric model applies positive reinforcement, sensory integration, and structured therapeutic communication — yielding significantly higher long-term social success."
               </p>
             </div>
           </div>

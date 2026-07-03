@@ -37,13 +37,13 @@ export default function About() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="relative border-y border-stone-200 py-10 md:py-12 my-10 text-center"
           >
-            <p className="font-serif text-2xl md:text-3xl text-slate-900 leading-relaxed italic max-w-2xl mx-auto">
+            <p className="quote-handwriting text-3xl md:text-4xl max-w-2xl mx-auto">
               "A safe, supportive and stimulating environment for every child to learn, grow and thrive."
             </p>
             <div className="mt-6 flex items-center justify-center space-x-2 text-xs font-semibold text-slate-500 uppercase tracking-widest">
               <span>Primary Mission Statement</span>
               <span>•</span>
-              <span className="text-brand-blue font-serif italic font-bold">Childcare Therapy Centre</span>
+              <span className="quote-handwriting text-base">Childcare Therapy Centre</span>
             </div>
           </motion.div>
 
