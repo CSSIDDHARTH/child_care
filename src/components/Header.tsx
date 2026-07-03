@@ -63,7 +63,7 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="font-display font-medium text-[13px] tracking-[0.02em] text-slate-600 hover:text-brand-blue transition-colors relative py-2 group"
+                className="font-display font-medium text-[13px] tracking-[0.02em] text-[#1a1a1a] hover:text-brand-blue transition-colors relative py-2 group"
               >
                 {item.label}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-blue transition-all duration-300 group-hover:w-full"></span>

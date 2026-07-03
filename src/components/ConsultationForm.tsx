@@ -77,7 +77,7 @@ export default function ConsultationForm() {
   };
 
   return (
-    <section id="consultation" className="py-20 md:py-28 bg-gradient-to-b from-white to-[#FCFBF7] relative overflow-hidden">
+    <section id="consultation" className="py-20 md:py-28 bg-gradient-to-b from-white via-[#FCFBF7] to-[#F2F8FC] relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute top-1/3 left-0 w-80 h-80 bg-brand-blue/5 rounded-full blur-3xl -z-10"></div>
       <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-brand-green/5 rounded-full blur-3xl -z-10"></div>

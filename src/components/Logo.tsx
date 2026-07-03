@@ -4,9 +4,10 @@ interface LogoProps {
   variant?: "horizontal" | "stacked" | "icon-only";
   className?: string;
   iconSize?: number;
+  subtextColor?: string;
 }
 
-export default function Logo({ variant = "horizontal", className = "", iconSize = 72 }: LogoProps) {
+export default function Logo({ variant = "horizontal", className = "", iconSize = 72, subtextColor = "#1a1a1a" }: LogoProps) {
   // SVG Icon representing the cupped hands and two active/joyful children
   const LogoIcon = () => (
     <img 
@@ -32,7 +33,7 @@ export default function Logo({ variant = "horizontal", className = "", iconSize 
             <span className="text-[#008ED6]">CHILD</span>
             <span className="text-[#72B124]">CARE</span>
           </h1>
-          <p className="font-display font-bold text-[11px] text-slate-700 dark:text-slate-300 uppercase tracking-[0.25em] mt-1">
+          <p className="font-display font-bold text-[11px] uppercase tracking-[0.25em] mt-1" style={{ color: subtextColor }}>
             THERAPY CENTRE
           </p>
         </div>
@@ -50,7 +51,7 @@ export default function Logo({ variant = "horizontal", className = "", iconSize 
             <span className="text-[#72B124]">CARE</span>
           </span>
         </div>
-        <p className="font-display font-bold text-[10px] md:text-xs text-slate-700 dark:text-slate-300 uppercase tracking-[0.22em] leading-none mt-1">
+        <p className="font-display font-bold text-[10px] md:text-xs uppercase tracking-[0.22em] leading-none mt-1" style={{ color: subtextColor }}>
           THERAPY CENTRE
         </p>
       </div>

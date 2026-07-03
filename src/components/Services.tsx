@@ -128,18 +128,18 @@ export default function Services() {
 
                 {/* Content */}
                 <div className="p-8 md:p-10">
-                  <h3 className="text-2xl font-display font-medium text-slate-800 mb-4 group-hover:text-brand-blue transition-colors duration-300">
+                  <h3 className="text-2xl font-display font-semibold text-slate-900 mb-4 group-hover:text-brand-blue transition-colors duration-300">
                     {service.title}
                   </h3>
-                  <p className="text-slate-500 text-base leading-relaxed font-light">
+                  <p className="text-slate-800 text-base leading-relaxed font-normal">
                     {service.description}
                   </p>
                   
                   {/* Bullet specifics for clinical look */}
-                  <div className="mt-8 pt-6 border-t border-slate-100 space-y-3">
-                    <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest mb-3">Scope of Practice</p>
+                  <div className="mt-8 pt-6 border-t border-slate-200 space-y-3">
+                    <p className="text-[11px] font-bold text-slate-600 uppercase tracking-widest mb-3">Scope of Practice</p>
                     {service.id === "speech-therapy" && (
-                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-700 font-medium list-disc list-inside">
                         <li>Articulation & Phonological Disorders</li>
                         <li>Fluency (Stuttering) & Voice modulation</li>
                         <li>Expressive & Receptive Language</li>
@@ -147,7 +147,7 @@ export default function Services() {
                       </ul>
                     )}
                     {service.id === "occupational-therapy" && (
-                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-700 font-medium list-disc list-inside">
                         <li>Fine Motor Coordination & Handwriting</li>
                         <li>Sensory Integration Therapy</li>
                         <li>Gross Motor Planning & Bilateral Coordination</li>
@@ -155,7 +155,7 @@ export default function Services() {
                       </ul>
                     )}
                     {service.id === "special-education" && (
-                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-700 font-medium list-disc list-inside">
                         <li>IEP (Individualized Education Program) Design</li>
                         <li>Cognitive development & Pre-academic concepts</li>
                         <li>Sensory-based and adaptive learning methods</li>
@@ -163,7 +163,7 @@ export default function Services() {
                       </ul>
                     )}
                     {service.id === "behaviour-therapy" && (
-                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-700 font-medium list-disc list-inside">
                         <li>Positive Behavior Support & Intervention Plans</li>
                         <li>Applied Behavior Analysis (ABA) concepts</li>
                         <li>Emotional literacy & Regulating triggers</li>
@@ -171,7 +171,7 @@ export default function Services() {
                       </ul>
                     )}
                     {service.id === "developmental-assessment" && (
-                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-700 font-medium list-disc list-inside">
                         <li>Cognitive & Intellectual Assessments</li>
                         <li>Emotional & Behavioral Evaluation</li>
                         <li>School Readiness & Learning Profiling</li>
@@ -179,7 +179,7 @@ export default function Services() {
                       </ul>
                     )}
                     {service.id === "parent-counseling" && (
-                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-700 font-medium list-disc list-inside">
                         <li>Positive Parenting & Co-regulation Strategies</li>
                         <li>Family Counseling & Systemic Support</li>
                         <li>Stress Management & Caregiver Wellness</li>

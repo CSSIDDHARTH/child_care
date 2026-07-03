@@ -15,7 +15,7 @@ export default function ContactSection() {
   ];
 
   return (
-    <section id="contact" className="py-20 md:py-28 bg-[#FCFBF7] border-t border-stone-200/60">
+    <section id="contact" className="py-20 md:py-28 bg-gradient-to-b from-[#F2F8FC] to-[#E9F3FA] border-t border-stone-200/60">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header Block */}
