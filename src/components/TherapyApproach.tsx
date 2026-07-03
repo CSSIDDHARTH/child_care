@@ -9,7 +9,7 @@ export default function TherapyApproach() {
       evidence: "Grounded in developmental linguistics and neurological pathways to retrain speech muscles, improve auditory processing, and build social communication pragmatics.",
     },
     {
-      title: "Occupational Therapy",
+      title: "Occupational Therapy & Sensory Integration",
       evidence: "Utilizes sensory integration theory and motor-learning principles to help children regulate external inputs, build core strength, and gain functional independence.",
     },
     {
@@ -17,7 +17,7 @@ export default function TherapyApproach() {
       evidence: "Applies cognitive psychology, structured learning scaffolds, and sensory-friendly pedagogical frameworks to support diverse learning minds.",
     },
     {
-      title: "Behaviour Therapy",
+      title: "Behavior Therapy / ABA Therapy",
       evidence: "Informed by behavioral science, positive reinforcement, and emotional regulation strategies to replace challenging habits with healthy social coping skills.",
     },
   ];
@@ -32,10 +32,10 @@ export default function TherapyApproach() {
         {/* Header Block */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-end mb-16 md:mb-24">
           <div className="lg:col-span-8 text-left">
-            <span className="text-brand-yellow font-bold tracking-wider text-xs uppercase mb-3 block">
+            <span className="label-colorful mb-3 block">
               Clinical Methodology
             </span>
-            <h2 className="text-3xl md:text-5xl font-display font-medium tracking-tight">
+            <h2 className="text-3xl md:text-5xl font-display font-bold tracking-tight heading-gradient">
               Evidence-Based Therapies
             </h2>
             <div className="mt-4 w-12 h-0.5 bg-brand-yellow"></div>
@@ -58,7 +58,7 @@ export default function TherapyApproach() {
                 <h3 className="text-lg font-medium font-display text-white">Interdisciplinary Alignment</h3>
               </div>
               <p className="text-sm text-slate-300 leading-relaxed">
-                By integrating <span className="text-white font-semibold">Speech Therapy</span>, <span className="text-white font-semibold">Occupational Therapy</span>, <span className="text-white font-semibold">Special Education</span>, and <span className="text-white font-semibold">Behaviour Therapy</span> under a unified clinical framework, our clinicians address all aspects of development in synergy.
+                By integrating <span className="text-white font-semibold">Speech Therapy</span>, <span className="text-white font-semibold">Occupational Therapy & Sensory Integration</span>, <span className="text-white font-semibold">Special Education</span>, and <span className="text-white font-semibold">Behavior Therapy / ABA Therapy</span> under a unified clinical framework, our clinicians address all aspects of development in synergy.
               </p>
             </div>
 

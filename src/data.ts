@@ -9,7 +9,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "occupational-therapy",
-    title: "Occupational Therapy",
+    title: "Occupational Therapy & Sensory Integration",
     description: "Enhancing motor skills, sensory processing, daily living activities and independence.",
     imageUrl: "https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=800&q=80"
   },
@@ -21,7 +21,7 @@ export const SERVICES: Service[] = [
   },
   {
     id: "behaviour-therapy",
-    title: "Behaviour Therapy",
+    title: "Behavior Therapy / ABA Therapy",
     description: "Positive behaviour support, emotion regulation and social skills for a better tomorrow.",
     imageUrl: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?auto=format&fit=crop&w=800&q=80"
   },

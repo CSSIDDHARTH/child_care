@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import "tailwindcss";
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-display: "Nunito", "Plus Jakarta Sans", sans-serif;
   --font-serif: "Plus Jakarta Sans", sans-serif;
   
   --color-brand-blue: #008ED6;
@@ -12,6 +12,13 @@
   --color-brand-green-hover: #5C8F1C;
   --color-brand-yellow: #F6C445;
   --color-brand-yellow-light: #fef8e7;
+
+  /* Soothing colorful palette for headings */
+  --color-heading-teal: #0EA5B0;
+  --color-heading-coral: #E8745A;
+  --color-heading-lavender: #7C5CBF;
+  --color-heading-sage: #4FA67A;
+  --color-heading-amber: #D4870E;
 }
 
 /* Custom styles for smooth scrolling and clean focus */
@@ -21,9 +28,39 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: #FCFBF7; /* Warm editorial cream background */
+  background-color: #FCFBF7;
   color: #1e293b;
   -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Colorful Heading Utilities ────────────────────────────────── */
+
+.heading-gradient {
+  background: linear-gradient(120deg, #E27B58 0%, #8A64D6 50%, #20A499 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Teal – used for label spans / eyebrow text */
+.text-heading-teal  { color: var(--color-heading-teal); }
+.text-heading-coral { color: var(--color-heading-coral); }
+.text-heading-lavender { color: var(--color-heading-lavender); }
+.text-heading-sage  { color: var(--color-heading-sage); }
+.text-heading-amber { color: var(--color-heading-amber); }
+
+/* Soft color for section labels throughout the site */
+.label-colorful {
+  background: linear-gradient(90deg, #0EA5B0, #7C5CBF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
 }
 
 /* Animation classes */
@@ -35,4 +72,3 @@ body {
 .animate-fade-in {
   animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-

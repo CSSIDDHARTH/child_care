@@ -87,10 +87,10 @@ export default function ConsultationForm() {
 
           {/* Informational Column */}
           <div className="lg:col-span-5 text-left">
-            <span className="text-brand-blue font-bold tracking-wider text-xs uppercase mb-3 block">
+            <span className="label-colorful mb-3 block">
               Admissions & Intake
             </span>
-            <h2 className="text-3xl md:text-4xl font-display font-medium text-slate-900 tracking-tight mb-6">
+            <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-6 heading-gradient">
               Begin Your Child’s Journey to Success
             </h2>
             <div className="w-12 h-0.5 bg-brand-blue mb-8"></div>
@@ -259,9 +259,9 @@ export default function ConsultationForm() {
                           <option value="" disabled>Select a service...</option>
                           {/* Note: The 'value' attribute MUST exactly match the Google Form options (case-sensitive). */}
                           <option value="Speech Therapy">Speech Therapy</option>
-                          <option value="Behavioral Therapy">Behavioral Therapy</option>
+                          <option value="Occupational Therapy & Sensory Integration">Occupational Therapy & Sensory Integration</option>
                           <option value="Special Education">Special Education</option>
-                          <option value="Occupational Therapy">Occupational Therapy</option>
+                          <option value="Behavior Therapy / ABA Therapy">Behavior Therapy / ABA Therapy</option>
                           <option value="Developmental Assessment & Psychological Testing">Developmental Assessment & Psychological Testing</option>
                           <option value="Parent Counseling & Family Support">Parent Counseling & Family Support</option>
                         </select>

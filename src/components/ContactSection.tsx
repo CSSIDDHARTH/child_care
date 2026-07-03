@@ -20,10 +20,10 @@ export default function ContactSection() {
         
         {/* Header Block */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
-          <span className="text-brand-blue font-bold tracking-wider text-xs uppercase mb-3 block">
+          <span className="label-colorful mb-3 block">
             Location & Contacts
           </span>
-          <h2 className="text-3xl md:text-4xl font-display font-medium text-slate-900 tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight heading-gradient">
             We are Here to Support You
           </h2>
           <div className="mt-4 w-12 h-0.5 bg-brand-blue mx-auto"></div>

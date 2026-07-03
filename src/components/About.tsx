@@ -25,7 +25,7 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-3xl md:text-4xl font-display font-medium text-slate-900 tracking-tight mb-6"
+            className="text-3xl md:text-4xl font-display font-bold tracking-tight mb-6 heading-gradient"
           >
             About Childcare Therapy Centre
           </motion.h2>

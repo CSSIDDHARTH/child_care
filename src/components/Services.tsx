@@ -77,19 +77,19 @@ const getCardBorder = (id: string) => {
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-28 bg-white border-y border-stone-200/60">
+    <section id="services" className="py-20 md:py-28 bg-gradient-to-b from-slate-950 via-[#0F172A] to-slate-950 border-y border-slate-900/60">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
-          <span className="text-brand-blue font-bold tracking-wider text-xs uppercase mb-3 block">
+          <span className="label-colorful mb-3 block">
             Clinical Services
           </span>
-          <h2 className="text-3xl md:text-4xl font-display font-medium text-slate-900 tracking-tight">
+          <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight heading-gradient">
             Our Comprehensive Therapeutic & Assessment Services
           </h2>
           <div className="mt-4 w-12 h-0.5 bg-brand-blue mx-auto"></div>
-          <p className="mt-4 text-base text-slate-500 max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 text-base text-slate-300 max-w-2xl mx-auto leading-relaxed font-light">
             We offer structured, individualized support across six key clinical areas. Every program is evidence-based and customized.
           </p>
         </div>
