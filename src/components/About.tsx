@@ -17,8 +17,7 @@ export default function About() {
             transition={{ duration: 0.5 }}
             className="flex items-center justify-center space-x-2 text-brand-green font-semibold tracking-wider text-xs uppercase mb-3"
           >
-            <Brain className="h-4.5 w-4.5 text-brand-green" />
-            <span>Changing Minds Mental Health Care</span>
+           
           </motion.div>
           
           <motion.h2

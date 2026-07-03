@@ -1,5 +1,5 @@
 import React from "react";
-import { MessageSquare, Activity, BookOpen, Smile, ArrowUpRight } from "lucide-react";
+import { MessageSquare, Activity, BookOpen, Smile, ClipboardCheck, Heart } from "lucide-react";
 import { SERVICES } from "../data";
 import { motion } from "motion/react";
 
@@ -13,6 +13,10 @@ const getIcon = (id: string) => {
       return <BookOpen className="h-6 w-6 text-brand-blue" />;
     case "behaviour-therapy":
       return <Smile className="h-6 w-6 text-brand-green" />;
+    case "developmental-assessment":
+      return <ClipboardCheck className="h-6 w-6 text-brand-blue" />;
+    case "parent-counseling":
+      return <Heart className="h-6 w-6 text-brand-green" />;
     default:
       return <Activity className="h-6 w-6 text-brand-blue" />;
   }
@@ -22,32 +26,56 @@ const getBadgeStyle = (id: string) => {
   switch (id) {
     case "speech-therapy":
     case "special-education":
+    case "developmental-assessment":
       return "bg-brand-blue/10 text-brand-blue";
     case "occupational-therapy":
     case "behaviour-therapy":
+    case "parent-counseling":
       return "bg-brand-green/10 text-brand-green";
     default:
       return "bg-slate-100 text-slate-700";
   }
 };
 
+const getCardBackground = (id: string) => {
+  switch (id) {
+    case "speech-therapy":
+      return "bg-gradient-to-br from-blue-50 to-indigo-100/50";
+    case "occupational-therapy":
+      return "bg-gradient-to-br from-emerald-50 to-teal-100/50";
+    case "special-education":
+      return "bg-gradient-to-br from-amber-50 to-orange-100/50";
+    case "behaviour-therapy":
+      return "bg-gradient-to-br from-rose-50 to-pink-100/50";
+    case "developmental-assessment":
+      return "bg-gradient-to-br from-violet-50 to-purple-100/50";
+    case "parent-counseling":
+      return "bg-gradient-to-br from-cyan-50 to-sky-100/50";
+    default:
+      return "bg-white";
+  }
+};
+
+const getCardBorder = (id: string) => {
+  switch (id) {
+    case "speech-therapy":
+      return "border border-indigo-100/60";
+    case "occupational-therapy":
+      return "border border-teal-100/60";
+    case "special-education":
+      return "border border-orange-100/60";
+    case "behaviour-therapy":
+      return "border border-pink-100/60";
+    case "developmental-assessment":
+      return "border border-purple-100/60";
+    case "parent-counseling":
+      return "border border-sky-100/60";
+    default:
+      return "border border-stone-200/60";
+  }
+};
+
 export default function Services() {
-  const handleScrollTo = () => {
-    const element = document.querySelector("#consultation");
-    if (element) {
-      const offset = 80;
-      const bodyRect = document.body.getBoundingClientRect().top;
-      const elementRect = element.getBoundingClientRect().top;
-      const elementPosition = elementRect - bodyRect;
-      const offsetPosition = elementPosition - offset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
-      });
-    }
-  };
-
   return (
     <section id="services" className="py-20 md:py-28 bg-white border-y border-stone-200/60">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,11 +86,11 @@ export default function Services() {
             Clinical Services
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-medium text-slate-900 tracking-tight">
-            Our Primary Therapeutic Disciplines
+            Our Comprehensive Therapeutic & Assessment Services
           </h2>
           <div className="mt-4 w-12 h-0.5 bg-brand-blue mx-auto"></div>
           <p className="mt-4 text-base text-slate-500 max-w-2xl mx-auto leading-relaxed">
-            We offer structured, individualized support across four primary clinical dimensions. Every program is evidence-based and customized.
+            We offer structured, individualized support across six key clinical areas. Every program is evidence-based and customized.
           </p>
         </div>
 
@@ -71,44 +99,45 @@ export default function Services() {
           {SERVICES.map((service, index) => (
             <motion.div
               key={service.id}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#FCFBF7] rounded-xl shadow-sm border border-stone-200/60 hover:shadow-md hover:border-brand-blue/30 transition-all duration-300 overflow-hidden group flex flex-col justify-between"
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.7, delay: index * 0.1, ease: "easeOut" }}
+              whileHover={{ y: -8 }}
+              className={`${getCardBackground(service.id)} ${getCardBorder(service.id)} rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.02)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 overflow-hidden group flex flex-col`}
             >
               <div>
-                {/* Image Header with Subtle Hover Ken Burns zoom */}
-                <div className="relative aspect-video w-full overflow-hidden">
-                  <img
-                    src={service.imageUrl}
-                    alt={service.title}
-                    className={`w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 ${
-                      service.id === "speech-therapy" ? "object-top" : "object-center"
-                    }`}
-                    referrerPolicy="no-referrer"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900/40 via-transparent to-transparent"></div>
-                  
-                  {/* Category Pill */}
-                  <span className={`absolute top-4 left-4 inline-flex items-center space-x-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold shadow-sm backdrop-blur-md ${getBadgeStyle(service.id)}`}>
-                    {getIcon(service.id)}
-                    <span className="ml-1.5">{service.title}</span>
-                  </span>
+                {/* Image Header within Rounded Tile container */}
+                <div className="p-6 pb-0">
+                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl bg-slate-50 shadow-inner">
+                    <img
+                      src={service.imageUrl}
+                      alt={service.title}
+                      className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 object-center"
+                      referrerPolicy="no-referrer"
+                    />
+                    <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
+                    
+                    {/* Category Pill */}
+                    <span className="absolute top-4 left-4 inline-flex items-center space-x-2 px-3 py-1.5 rounded-xl text-[10px] font-semibold tracking-wider uppercase shadow-sm bg-white/95 text-slate-800 backdrop-blur-sm border border-slate-100">
+                      {getIcon(service.id)}
+                      <span>{service.title}</span>
+                    </span>
+                  </div>
                 </div>
 
                 {/* Content */}
-                <div className="p-6 md:p-8">
-                  <h3 className="text-xl md:text-2xl font-display font-medium text-slate-900 mb-3 group-hover:text-brand-blue transition-colors">
+                <div className="p-8 md:p-10">
+                  <h3 className="text-2xl font-display font-medium text-slate-800 mb-4 group-hover:text-brand-blue transition-colors duration-300">
                     {service.title}
                   </h3>
-                  <p className="text-slate-600 text-sm md:text-base leading-relaxed">
+                  <p className="text-slate-500 text-base leading-relaxed font-light">
                     {service.description}
                   </p>
                   
                   {/* Bullet specifics for clinical look */}
-                  <div className="mt-5 pt-5 border-t border-stone-200/60 space-y-2">
-                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Scope of Practice Include:</p>
+                  <div className="mt-8 pt-6 border-t border-slate-100 space-y-3">
+                    <p className="text-[11px] font-semibold text-slate-400 uppercase tracking-widest mb-3">Scope of Practice</p>
                     {service.id === "speech-therapy" && (
                       <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
                         <li>Articulation & Phonological Disorders</li>
@@ -141,21 +170,25 @@ export default function Services() {
                         <li>Social play skills & Peer interaction</li>
                       </ul>
                     )}
+                    {service.id === "developmental-assessment" && (
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                        <li>Cognitive & Intellectual Assessments</li>
+                        <li>Emotional & Behavioral Evaluation</li>
+                        <li>School Readiness & Learning Profiling</li>
+                        <li>Diagnostic ADHD & Autism Screening</li>
+                      </ul>
+                    )}
+                    {service.id === "parent-counseling" && (
+                      <ul className="grid grid-cols-1 gap-1 text-xs text-slate-500 font-medium list-disc list-inside">
+                        <li>Positive Parenting & Co-regulation Strategies</li>
+                        <li>Family Counseling & Systemic Support</li>
+                        <li>Stress Management & Caregiver Wellness</li>
+                        <li>Behavioral Intervention Coaching</li>
+                      </ul>
+                    )}
                   </div>
                 </div>
               </div>
-
-              {/* Action Link inside Service Card */}
-              <div className="p-6 md:p-8 pt-0 mt-auto">
-                <button
-                  onClick={handleScrollTo}
-                  className="w-full flex items-center justify-between text-left text-sm font-bold text-brand-blue border border-stone-200/60 hover:border-brand-blue/30 bg-white hover:bg-brand-blue/5 p-4 rounded-lg transition-all duration-200"
-                >
-                  <span>Request clinical intake for {service.title}</span>
-                  <ArrowUpRight className="h-4.5 w-4.5 text-brand-blue" />
-                </button>
-              </div>
-
             </motion.div>
           ))}
         </div>

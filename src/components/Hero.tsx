@@ -42,14 +42,7 @@ export default function Hero() {
         {/* Floating Text Wrapper with Glassmorphism */}
         <div className="flex flex-col items-start text-left bg-white/60 backdrop-blur-xl border border-white/40 p-12 rounded-[2.5rem] shadow-[0_8px_32px_rgba(0,0,0,0.1)] max-w-[600px] w-full mt-12 md:mt-0">
           
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-flex items-center justify-center bg-white/80 text-brand-blue border border-brand-blue/10 px-3.5 py-1.5 rounded-full font-display font-semibold tracking-widest text-[11px] uppercase mb-6 w-fit shadow-sm"
-          >
-            Academic Pediatric Care
-          </motion.div>
+          
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}

@@ -219,7 +219,7 @@ export default function ConsultationForm() {
                             id="phone"
                             name="phone"
                             required
-                            placeholder="e.g., 7007687896"
+                            placeholder="e.g., 9118978333"
                             value={formData.phone}
                             onChange={handleChange}
                             className="w-full bg-white border border-stone-200 focus:border-brand-blue focus:ring-1 focus:ring-brand-blue rounded-lg px-4 py-3 text-slate-800 text-sm outline-none transition-all duration-150"
@@ -262,6 +262,8 @@ export default function ConsultationForm() {
                           <option value="Behavioral Therapy">Behavioral Therapy</option>
                           <option value="Special Education">Special Education</option>
                           <option value="Occupational Therapy">Occupational Therapy</option>
+                          <option value="Developmental Assessment & Psychological Testing">Developmental Assessment & Psychological Testing</option>
+                          <option value="Parent Counseling & Family Support">Parent Counseling & Family Support</option>
                         </select>
                       </div>
 

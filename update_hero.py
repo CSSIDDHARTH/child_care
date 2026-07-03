@@ -34,9 +34,7 @@ new_return = """  return (
             transition={{ duration: 0.6 }}
             className="inline-flex items-center space-x-2 bg-white/80 text-brand-blue border border-brand-blue/10 px-3.5 py-1.5 rounded-full font-display font-semibold tracking-widest text-[11px] uppercase mb-6 w-fit shadow-sm"
           >
-            <Sparkles className="h-3.5 w-3.5 mr-1 text-brand-yellow" />
-            Academic Pediatric Care
-          </motion.div>
+            <Sparkles className="h-3.5 w-3.5 mr-1 text-brand-yello
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
