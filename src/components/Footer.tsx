@@ -1,7 +1,42 @@
 import React from "react";
-import { Brain, Phone, MapPin, Mail, Sparkles, Heart } from "lucide-react";
+import { Brain, Phone, MapPin, Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 import { CONTACT_INFO } from "../data";
 import Logo from "./Logo";
+
+const SOCIAL_LINKS = [
+  {
+    id: "facebook",
+    label: "Facebook",
+    href: "https://www.facebook.com/phychotherapy/",
+    Icon: Facebook,
+    hoverColor: "hover:bg-[#1877F2] hover:border-[#1877F2]",
+    ariaLabel: "Visit our Facebook page",
+  },
+  {
+    id: "instagram",
+    label: "Instagram",
+    href: "https://www.instagram.com/changing_minds/",
+    Icon: Instagram,
+    hoverColor: "hover:bg-gradient-to-br hover:from-[#F58529] hover:via-[#DD2A7B] hover:to-[#8134AF] hover:border-transparent",
+    ariaLabel: "Visit our Instagram profile",
+  },
+  {
+    id: "linkedin",
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/dr-laxman-yadav-28594568/",
+    Icon: Linkedin,
+    hoverColor: "hover:bg-[#0A66C2] hover:border-[#0A66C2]",
+    ariaLabel: "Visit Dr. Laxman Yadav on LinkedIn",
+  },
+  {
+    id: "youtube",
+    label: "YouTube",
+    href: "https://www.youtube.com/@laxmanchangingmindscounsel5839",
+    Icon: Youtube,
+    hoverColor: "hover:bg-[#FF0000] hover:border-[#FF0000]",
+    ariaLabel: "Visit our YouTube channel",
+  },
+];
 
 export default function Footer() {
   const handleScrollTo = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
@@ -42,6 +77,23 @@ export default function Footer() {
           <p className="text-xs md:text-sm font-semibold tracking-wider text-brand-yellow uppercase mt-4">
             — Our Promise to Your Family
           </p>
+
+          {/* Social Icons — centred under the quote */}
+          <div className="mt-8 flex items-center justify-center gap-3">
+            {SOCIAL_LINKS.map(({ id, href, Icon, hoverColor, ariaLabel, label }) => (
+              <a
+                key={id}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={ariaLabel}
+                title={label}
+                className={`group w-10 h-10 rounded-xl border border-slate-700 bg-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-lg ${hoverColor}`}
+              >
+                <Icon className="h-4 w-4" />
+              </a>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -56,6 +108,26 @@ export default function Footer() {
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm font-serif">
               We provide professional and evidence-based therapeutic care, bringing together speech, sensory, motor, academic, and behavioural sciences to nurture every child's potential.
             </p>
+
+            {/* Social Icons — in the brand block */}
+            <div className="pt-2 flex items-center gap-2.5">
+              <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-600 mr-1">
+                Follow us
+              </span>
+              {SOCIAL_LINKS.map(({ id, href, Icon, hoverColor, ariaLabel, label }) => (
+                <a
+                  key={id}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={ariaLabel}
+                  title={label}
+                  className={`group w-8 h-8 rounded-lg border border-slate-700 bg-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition-all duration-300 hover:scale-110 hover:shadow-md ${hoverColor}`}
+                >
+                  <Icon className="h-3.5 w-3.5" />
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -108,7 +180,23 @@ export default function Footer() {
         {/* Lower copyright bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-medium">
           <p>© {new Date().getFullYear()} Childcare Therapy Centre. All rights reserved.</p>
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              {SOCIAL_LINKS.map(({ id, href, Icon, ariaLabel, label, hoverColor }) => (
+                <a
+                  key={id}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={ariaLabel}
+                  title={label}
+                  className={`w-6 h-6 rounded-md border border-slate-800 bg-slate-800/50 flex items-center justify-center text-slate-600 hover:text-white transition-all duration-200 hover:scale-110 ${hoverColor}`}
+                >
+                  <Icon className="h-3 w-3" />
+                </a>
+              ))}
+            </div>
+            <span className="text-slate-700">•</span>
             <span className="text-slate-600">Unit of Changing Minds Mental Health Care</span>
             <span>•</span>
             <span className="text-slate-600">Clinical Standards 100% Guaranteed</span>
