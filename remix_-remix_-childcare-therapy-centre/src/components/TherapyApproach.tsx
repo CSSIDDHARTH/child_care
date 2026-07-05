@@ -62,15 +62,8 @@ export default function TherapyApproach() {
               </p>
             </div>
 
-            <div className="bg-white/5 border border-white/10 rounded-lg p-6 md:p-8">
-              <div className="flex items-center space-x-3 mb-4">
-                <Shield className="h-6 w-6 text-brand-green" />
-                <h3 className="text-lg font-medium font-display text-white">Regular Peer Assessments</h3>
-              </div>
-              <p className="text-sm text-slate-300 leading-relaxed">
-                Our team meets weekly for interdisciplinary peer reviews to coordinate care, cross-reference progress metrics, and adjust behavioral support strategies.
-              </p>
-            </div>
+
+            
             
             <div className="bg-white/5 border border-white/10 rounded-lg p-6 md:p-8">
               <div className="flex items-center space-x-3 mb-4">

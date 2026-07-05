@@ -138,7 +138,7 @@ function ReviewCard({ review, isActive }: { review: typeof REVIEWS[0]; isActive:
         </div>
 
         {/* Review text */}
-        <p className="text-slate-700 text-[0.9rem] leading-relaxed flex-grow mb-4">
+        <p className="testimonial-text text-slate-700 text-[0.9rem] leading-relaxed flex-grow mb-4 font-bold font-display">
           {displayText}
         </p>
 
@@ -284,11 +284,10 @@ function TestimonialsSection() {
               <button
                 key={i}
                 onClick={() => goTo(i)}
-                className={`rounded-full transition-all duration-300 ${
-                  i === activeIndex
+                className={`rounded-full transition-all duration-300 ${i === activeIndex
                     ? "w-6 h-2.5 bg-brand-blue"
                     : "w-2.5 h-2.5 bg-stone-300 hover:bg-stone-400"
-                }`}
+                  }`}
                 aria-label={`Go to review ${i + 1}`}
               />
             ))}
@@ -313,7 +312,7 @@ export default function WhyChooseUs() {
   return (
     <section id="why-choose-us" className="py-20 md:py-28 bg-gradient-to-b from-[#FCFBF7] to-[#FEFBF0] overflow-hidden">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <span className="label-colorful mb-3 block">
@@ -344,10 +343,10 @@ export default function WhyChooseUs() {
                 {getFeatureIcon(feature.id)}
               </div>
 
-              <h3 className="text-lg md:text-xl font-display font-medium text-slate-900 mb-3 leading-snug">
+              <h3 className="text-lg md:text-xl font-display font-bold text-[#008DD2] mb-3 leading-snug">
                 {feature.title}
               </h3>
-              
+
               <p className="text-sm text-slate-500 leading-relaxed font-medium">
                 {feature.description}
               </p>

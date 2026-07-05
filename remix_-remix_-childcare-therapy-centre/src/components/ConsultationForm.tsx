@@ -106,7 +106,7 @@ export default function ConsultationForm() {
                   1
                 </div>
                 <div>
-                  <h3 className="font-serif font-bold text-slate-900 text-base mb-1">Clinical Intake Form</h3>
+                  <h3 className="font-display font-bold text-[#008DD2] text-base mb-1">Clinical Intake Form</h3>
                   <p className="text-sm text-slate-500">Provide high-level details about your child's developmental profile and specific therapy requirements.</p>
                 </div>
               </div>
@@ -116,7 +116,7 @@ export default function ConsultationForm() {
                   2
                 </div>
                 <div>
-                  <h3 className="font-serif font-bold text-slate-900 text-base mb-1">Practitioner Matching</h3>
+                  <h3 className="font-display font-bold text-[#73C043] text-base mb-1">Practitioner Matching</h3>
                   <p className="text-sm text-slate-500">Our senior therapists review the inquiry and coordinate a 1-on-1 assessment time.</p>
                 </div>
               </div>
@@ -126,7 +126,7 @@ export default function ConsultationForm() {
                   3
                 </div>
                 <div>
-                  <h3 className="font-serif font-bold text-slate-900 text-base mb-1">Comprehensive Evaluation</h3>
+                  <h3 className="font-display font-bold text-[#008DD2] text-base mb-1">Comprehensive Evaluation</h3>
                   <p className="text-sm text-slate-500">We complete standard motor, cognitive, and communicative evaluations in a warm play-friendly setting.</p>
                 </div>
               </div>
@@ -157,7 +157,7 @@ export default function ConsultationForm() {
                     transition={{ duration: 0.4 }}
                   >
                     <div className="mb-6 md:mb-8 text-center sm:text-left">
-                      <h3 className="text-xl md:text-2xl font-display font-medium text-slate-900 mb-2">
+                      <h3 className="text-xl md:text-2xl font-display font-bold text-[#008DD2] mb-2">
                         Request a Clinical Assessment
                       </h3>
                       <p className="text-xs md:text-sm text-slate-500">

@@ -35,7 +35,7 @@ export default function WhyChooseUs() {
   return (
     <section id="why-choose-us" className="py-20 md:py-28 bg-[#FCFBF7] overflow-hidden">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <span className="text-brand-green font-bold tracking-wider text-xs uppercase mb-3 block">
@@ -66,10 +66,10 @@ export default function WhyChooseUs() {
                 {getFeatureIcon(feature.id)}
               </div>
 
-              <h3 className="text-lg md:text-xl font-display font-medium text-slate-900 mb-3 leading-snug">
+              <h3 className="text-lg md:text-xl font-display font-bold text-[#008DD2] mb-3 leading-snug">
                 {feature.title}
               </h3>
-              
+
               <p className="text-sm text-slate-500 leading-relaxed font-medium">
                 {feature.description}
               </p>

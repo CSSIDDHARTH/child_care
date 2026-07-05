@@ -36,10 +36,10 @@ export default function Footer() {
       {/* Upper Footer: Quote Highlight */}
       <div className="bg-slate-950 py-16 text-center text-white px-4 border-b border-slate-800">
         <div className="max-w-4xl mx-auto">
-          <blockquote className="font-serif italic font-medium text-xl md:text-2xl lg:text-3xl tracking-tight leading-relaxed max-w-2xl mx-auto">
+          <blockquote className="testimonial-text font-display font-bold text-xl md:text-2xl lg:text-3xl tracking-tight leading-relaxed max-w-2xl mx-auto text-[#008DD2]">
             "Where every child is understood, supported and empowered."
           </blockquote>
-          <p className="text-xs md:text-sm font-semibold tracking-wider text-brand-yellow uppercase mt-4">
+          <p className="text-xs md:text-sm font-semibold tracking-wider text-brand-green uppercase mt-4">
             — Our Promise to Your Family
           </p>
         </div>

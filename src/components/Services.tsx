@@ -117,18 +117,12 @@ export default function Services() {
                       referrerPolicy="no-referrer"
                     />
                     <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-500"></div>
-                    
-                    {/* Category Pill */}
-                    <span className="absolute top-4 left-4 inline-flex items-center space-x-2 px-3 py-1.5 rounded-xl text-[10px] font-semibold tracking-wider uppercase shadow-sm bg-white/95 text-slate-800 backdrop-blur-sm border border-slate-100">
-                      {getIcon(service.id)}
-                      <span>{service.title}</span>
-                    </span>
                   </div>
                 </div>
 
                 {/* Content */}
                 <div className="p-8 md:p-10">
-                  <h3 className="text-2xl font-display font-semibold text-slate-900 mb-4 group-hover:text-brand-blue transition-colors duration-300">
+                  <h3 className="text-2xl font-display font-bold text-[#008DD2] mb-4 group-hover:text-[#73C043] transition-colors duration-300">
                     {service.title}
                   </h3>
                   <p className="text-slate-800 text-base leading-relaxed font-normal">

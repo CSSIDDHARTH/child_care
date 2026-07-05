@@ -48,10 +48,10 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-[#0f172a] tracking-[-0.03em] leading-[1.15] mb-6 drop-shadow-sm"
+            className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl text-[#008DD2] tracking-[-0.03em] leading-[1.15] mb-6 drop-shadow-sm"
           >
             Nurturing Today,<br />
-            <span className="text-brand-blue italic font-semibold drop-shadow-sm">Empowering Tomorrow.</span>
+            <span className="text-[#73C043] italic font-semibold drop-shadow-sm">Empowering Tomorrow.</span>
           </motion.h1>
 
           <motion.p

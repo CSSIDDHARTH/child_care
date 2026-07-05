@@ -116,7 +116,7 @@ export default function ContactSection() {
                 <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">
                   Parent Organisation
                 </span>
-                <h4 className="text-base font-serif font-bold text-slate-900">
+                <h4 className="text-base font-display font-bold text-[#008DD2]">
                   {CONTACT_INFO.parentOrg}
                 </h4>
                 <p className="text-xs text-slate-500 mt-1 leading-normal">
@@ -134,7 +134,7 @@ export default function ContactSection() {
                 <span className="block text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">
                   Admissions Hours
                 </span>
-                <h4 className="text-sm font-bold text-slate-800 font-serif">
+                <h4 className="text-sm font-bold text-[#73C043] font-display">
                   Monday – Saturday: 09:30 AM – 06:30 PM
                 </h4>
                 <p className="text-xs text-slate-500 mt-1">

@@ -1,0 +1,3584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<!-- rel=dynamic-content indicates an element that is replaced with the contents produced by the specified href. 
+    dyn-cs:* URIs are resolved using the values within the 'wp_dyncs_simple' theme module. -->
+	<link rel="stylesheet" href="/wps/contenthandler/!ut/p/digest!E4tXELFuIdSn4_BcZLNfiQ/sp/mashup:ra:collection?soffset=0&amp;eoffset=20&amp;themeID=ZJ_7G142101N8B2F0ANNE2FGE1OO7&amp;locale=en&amp;mime-type=text%2Fcss&amp;lm=1779265308837&amp;entry=wp_toolbar_common__0.0%3Ahead_css&amp;entry=st_compressed_navbar__0.0%3Ahead_css&amp;entry=wp_dialog_css__0.0%3Ahead_css&amp;entry=wp_toolbar_logo__0.0%3Ahead_css&amp;entry=wp_portlet_css__0.0%3Ahead_css&amp;entry=wp_theme_simple__0.0%3Ahead_css&amp;entry=wp_toolbar_common_actionbar__0.0%3Ahead_css&amp;entry=wp_simple_contextmenu_css__0.0%3Ahead_css&amp;entry=wp_toolbar_actionbar__0.0%3Ahead_css&amp;entry=st_fixed_navbar__0.0%3Ahead_css&amp;entry=wp_draft_page_ribbon__0.0%3Ahead_css&amp;entry=wp_toolbar_sitepreview__0.0%3Ahead_css&amp;entry=st_notice__0.0%3Ahead_css&amp;entry=wp_toolbar_moremenu__0.0%3Ahead_css&amp;entry=st_layoutGrid__0.0%3Ahead_css&amp;entry=st_search__0.0%3Ahead_css&amp;entry=wp_status_bar__0.0%3Ahead_css&amp;entry=wp_toolbar_projectmenu__0.0%3Ahead_css&amp;entry=wp_oob_sample_styles__0.0%3Ahead_css" type="text/css"/><script type="text/javascript">(function(){if (typeof(wpModules) == 'undefined') wpModules = {}; if (typeof(wpModules.state) == 'undefined') wpModules.state = {}; if (typeof(wpModules.state.page) == 'undefined') wpModules.state.page = {};wpModules.state.page._initial=[{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"selection","value":["Z6_69KAGH42N0S440QG0ISD8J30G1"]},{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"labelMappings","value":["Z6_7G142101NOSIC0AN3F6U5C0AP4","Z6_69KAGH42N0S440QG0ISD8J30G1","Z6_000000000000000000000000A0","Z6_69KAGH42N0S440QG0ISD8J30G1","Z6_69KAGH42N0S440QG0ISD8J30G1","Z6_000000000000000000000000A0"]},{"nsuri":"http://www.ibm.com/xmlns/prod/websphere/portal/publicparams","name":"expansions","value":["Z6_000000000000000000000000A0","Z6_7G142101NOSIC0AN3F6U5C0AP4"]}];wpModules.state.page.selectionPath=['Z6_000000000000000000000000A0','Z6_7G142101NOSIC0AN3F6U5C0AP4','Z6_69KAGH42N0S440QG0ISD8J30G1'];wpModules.state.page.supportsEditMode=true;wpModules.state.page.supportsToolbar=true;wpModules.state.page.path='/wps/portal';wpModules.state.page.protectedPath='/wps/myportal';wpModules.state.page.publicPath='/wps/portal';})();</script><script type="text/javascript" src="/wps/contenthandler/!ut/p/digest!L_negPqVWa2FDiru8UDKPw/mashup/ra:collection?themeID=ZJ_7G142101N8B2F0ANNE2FGE1OO7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1779265308185&amp;entry=wp_client_main__0.0%3Ahead_js&amp;entry=wp_client_ext__0.0%3Ahead_js&amp;entry=wp_client_logging__0.0%3Ahead_js&amp;entry=wp_client_tracing__0.0%3Ahead_js&amp;entry=wp_modules__0.0%3Ahead_js&amp;entry=wp_photon_dom__0.0%3Ahead_js&amp;entry=wp_toolbar_common__0.0%3Ahead_js&amp;entry=wp_dialog_util__0.0%3Ahead_js&amp;entry=wp_dialog_draggable__0.0%3Ahead_js&amp;entry=wp_dialog_main__0.0%3Ahead_js&amp;entry=wp_a11y__0.0%3Ahead_js&amp;entry=wp_state_page__0.0%3Ahead_js&amp;entry=wp_client_selector__0.0%3Ahead_js&amp;entry=wp_theme_utils__0.0%3Ahead_js&amp;entry=wp_toolbar_viewframe_validator__0.0%3Ahead_js&amp;entry=st_notice__0.0%3Ahead_js&amp;entry=st_navigation__0.0%3Ahead_js"></script><link id="hIljgkhHJbE" rel="alternate" href="https://tpb.vn/wps/portal/vni/err/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizSy9Hd09TIz8DIJNTAwC3Q08g10svIwN3A31w8EKzN0NTYwMDQz9_IM9nQ0c_YzdzEJNgYwAE_0oYvQb4ACOBsTpx6MgCr_x4fpRYCX4fEDIjILc0NAIg0xHAEYbdY0!/"><script type="text/javascript">(function() {
+	var element = document.getElementById("hIljgkhHJbE");
+	if (element) {
+		wpModules.theme.WindowUtils.baseURL.resolve(element.href);
+	}
+}());</script><style id="layout-wstate-styles"></style><base href="https://tpb.vn/wps/portal/vni/err/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizSy9Hd09TIz8DIJNTAwC3Q08g10svIwN3A31w8EKzN0NTYwMDQz9_IM9nQ0c_YzdzEJNgYwAE_0oYvQb4ACOBsTpx6MgCr_x4fpRYCX4fEDIjILc0NAIg0xHAEYbdY0!/">
+<title>Trang Lỗi | TPBank Digital</title>
+<meta name="description" content="">
+ 
+
+	<link id="com.ibm.lotus.NavStateUrl" rel="alternate" href="/wps/portal/vni/err/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zizSy9Hd09TIz8DIJNTAwC3Q08g10svIwN3A31w8EKzN0NTYwMDQz9_IM9nQ0c_YzdzEJNgYwAE_0oYvQb4ACOBsTpx6MgCr_x4fpRYCX4fEDIjILc0NAIg0xHAEYbdY0!/dz/d5/L2dJQSEvUUt3QS80TmxFL1o2XzY5S0FHSDQyTjBTNDQwUUcwSVNEOEozMEcx/" />
+
+	<link href="/wps/contenthandler/!ut/p/digest!iz67yqOQnqPda5Sovznj-g/dav/fs-type1/themes/custom.portal.theme.TPBThemev1/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="preload" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/fonts/Roboto-Bold.otf" as="font" type="font/otf" crossorigin>
+	<link rel="preload" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/fonts/Roboto-Medium.otf" as="font" type="font/otf" crossorigin>
+	<link rel="preload" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/fonts/Roboto-Regular.otf" as="font" type="font/otf" crossorigin>
+	<link rel="preload" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/fonts/TPBNeoSans_Bold-webfont.woff" as="font" type="font/woff" crossorigin>
+  	<!-- <script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/changeURL.js"></script> -->
+  	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/jquery-3.6.0.min.js"></script>
+	
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<!-- <link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+  	<!-- font awesome CSS -->
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/jquery-ui.css" rel="stylesheet" type="text/css" media="print" onload="this.media='all'">
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="print" onload="this.media='all'">
+
+	<!-- Fliper CSS -->
+	<link rel="stylesheet" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/jquery.flipster.min.css" media="print" onload="this.media='all'">
+	<!-- Jquery Fancybox -->
+	<link rel="stylesheet" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/jquery.fancybox.min.css" media="print" onload="this.media='all'">
+	
+	<!-- Custom styles for this template -->
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/index.css" rel="stylesheet" type="text/css">
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/main.css" rel="stylesheet" type="text/css">
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/style-icon.css" rel="stylesheet" type="text/css">
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/stylesheet.css" rel="stylesheet" type="text/css">
+	<!-- <link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/stylesheetSFProText.css" rel="stylesheet" type="text/css"> -->
+	<!-- <link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/ie7.css" rel="stylesheet" type="text/css"> -->
+	
+	<link href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/customcss.css" rel="stylesheet" type="text/css">
+    
+	<!--<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/picture-fall.js"></script>-->
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/jquery-ui.min.js"></script>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/ie8-responsive-file-warning.js"></script><![endif]-->
+	<!-- <script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/ie-emulation-modes-warning.js"></script> -->
+	<!-- <script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/campaign.js"></script> -->
+
+    <meta name="google-site-verification" content="H3zyMldzmRHQTEAcYmefR8_ivMRflHqfezwbZJMjzos" />
+<!-- JSON-LD markup generated by Google Structured Data Markup Helper. -->
+	<script type="application/ld+json">
+	{
+	  "@context" : "http://schema.org",
+	  "@type" : "LocalBusiness",
+	  "name" : "TPBank",
+	  "image" : "https://tpb.vn/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/logo.png",
+	  "telephone" : [ "1900 58 58 85", "(024) 37 683683" ],
+	  "email" : "dichvu_khachhang@tpb.com.vn"
+	}
+	</script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-5X6BPNS');</script>
+	<!-- End Google Tag Manager -->
+    
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<!-- Owl Stylesheets -->
+    	<link rel="stylesheet" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/owl/owl.carousel.min.css" media="print" onload="this.media='all'">
+    	<link rel="stylesheet" href="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/owl/owl.theme.default.min.css" media="print" onload="this.media='all'">
+</head>
+<body id="content" class="lotusui30dojo tundra claro locale_en">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript>
+		<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5X6BPNS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+	</noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div id="stPageFrame">
+		<header role="banner">
+			<!-- site toolbar -->
+			<div class="stToolbar">
+                		
+
+<![endif]--></div>			<div id="stBanner" class="stBanner stGroup" style="display:none;">
+				<div id="stBannerMenus" class="stRight" >
+					<ul class="stBannerMenus stLeft">
+					</ul>
+					<div class="stSearch stLeft" id="sqf">
+						<div role="search">
+						</div>
+					</div>
+					<ul class="stBannerMenus stLeft">
+					</ul>
+				</div><!-- end action menus -->
+				<div id="stNavigation" class="stBanner stNavigation">
+				</div><!--end primary nav banner-->
+
+			</div><!--end main banner-->
+		</header>
+
+		<!-- these wptheme* classes are required for the hidden widget container -->
+		<div class="stMainContent wpthemeMainContent" role="main" aria-label="IBM Digital Experience Main">
+			<!-- required - do not remove -->
+			<div style="display:none" id="portletState">{}</div><div id="layoutContainers" class="stLayoutContainers stLayoutContainersHidden stGroup wpthemeLayoutContainersHidden">
+				<div class="hiddenWidgetsDiv">
+	<!-- widgets in this container are hidden in the UI by default -->
+	<div class='component-container wpthemeRow wpthemeFull ibmDndRow wpthemeCol12of12 hiddenWidgetsContainer id-Z7_69KAGH42N0S440QG0ISD8J30G7' name='ibmHiddenWidgets' ></div><div style="clear:both"></div>
+</div>
+<!-- this layout has two equally sized columns -->
+<div class="wptheme2Col wpthemeEqual">
+	<div class='component-container wpthemeLeft wpthemePrimaryContainer wpthemeCol ibmDndColumn wpthemeCol6of12 wpthemeMedium id-Z7_69KAGH42N0S440QG0ISD8J3080' name='ibmMainContainer' ><div class='component-control id-Z7_69KAGH42N0S440QG0ISD8J30O0' ><!-- The Control element contains the portlet banner and the portlet content. -->
+<div class="ibmPortalControl stControl wpthemeControl a11yRegionTarget" >
+    <!-- The ControlHeader element is the banner which contains the portlet title and menu -->
+    <div class="stControlHeader wpthemeControlHeader">
+        <!-- A FocusableLink shows or hides the ControlHeader when the link receives a "focus" or "blur" event. This -->
+        <!-- element's event handlers are added by JavaScript in the st_skin module when the page is in "Edit" mode. -->
+        <!-- This link corresponds to the entire ControlHeader element. -->
+        <a tabindex="0" class="stFocusableLink stStartHeader"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="start portlet menu bar"/></a>
+        <div>
+            <div>
+                <h2 class="dndHandle" draggable="true" ondragstart="wpModules.dnd.util.portletDragStart(event, this, this, 30, 0);"
+                    ondragend="wpModules.dnd.util.portletDragEnd(event);">
+                    <!-- The "lm:title" dynamic spot is used for dynamic title support. -->
+                    <span class="lm-dynamic-title a11yRegionLabel"><span lang="en" dir="ltr">Web Content Viewer</span></span>
+                </h2>
+                <!-- the content menu -->
+                <a aria-haspopup="true" aria-label="Display content menu" role="button" href="javascript:;" class="contextMenuInSkinIcon stGroup" style="display:none" >
+                    <span title="Display content menu">
+                        <svg class="stSkinMenuIcon" aria-label="Display content menu"><title>Display content menu</title><use xlink:href="#stContent-Menu"></use></svg>
+                    </span>
+                </a>
+                <!-- A FocusableLink shows or hides the ControlHeader when the link receives a "focus" or "blur" event. This -->
+                <!-- element's event handlers are added when the portlet is in "Edit" mode, via JavaScript (st_skin module). -->
+                <!-- This link corresponds to the portlet menu element. -->
+                <a class="stActionMenu" aria-label="Display portlet menu" aria-haspopup="true" role="button" href="javascript:;" onclick="wptheme.contextMenu.init({ 'node': this, menuId: 'skinAction', jsonQuery: {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}, params: {'alignment':'right'}});" onkeydown="if (event.keyCode ==13 || event.keyCode ==32 || event.keyCode==38 || event.keyCode ==40) {wptheme.contextMenu.init(this, 'skinAction', {'navID':ibmCfg.portalConfig.currentPageOID,'windowID':wptheme.getWindowIDFromSkin(this)}); return false;}">
+                    <span title="Display portlet menu">
+                        <svg class="stSkinMenuIcon" aria-label="Display portlet menu"><title>Display portlet menu</title><use xlink:href="#stPortlet-Menu"></use></svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <a tabindex="0" class="stFocusableLink stEndHeader"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="end portlet menu bar"/></a>
+    </div>
+    
+    <!-- The ControlBody element contains the portlet content. -->
+    <div class="stControlBody stOverflowAuto wpthemeControlBody">
+        <!-- The "lm:control" dynamic spot is used for the markup of a layout control. -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+
+
+
+
+    
+    
+        
+        
+            
+                
+                    
+                    
+                       
+                        
+                            <div class="not-front">
+<style>
+    .containerNewHear * {
+        box-sizing: border-box;
+    }
+
+    .justify-content-start {
+        -ms-flex-pack: start !important;
+        justify-content: flex-start !important
+    }
+
+    .justify-content-end {
+        -ms-flex-pack: end !important;
+        justify-content: flex-end !important
+    }
+
+    .justify-content-center {
+        -ms-flex-pack: center !important;
+        justify-content: center !important
+    }
+
+    .align-items-start {
+        -ms-flex-align: start !important;
+        align-items: flex-start !important
+    }
+
+    .align-items-end {
+        -ms-flex-align: end !important;
+        align-items: flex-end !important
+    }
+
+    .align-items-center {
+        -ms-flex-align: center !important;
+        align-items: center !important
+    }
+
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -.625rem;
+        margin-left: -.625rem
+    }
+
+    .d-flex {
+        display: -ms-flexbox !important;
+        display: flex !important
+    }
+
+    .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        position: relative;
+        width: 100%;
+        padding-right: .625rem;
+        padding-left: .625rem
+    }
+
+    .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: 0;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        max-width: 100%
+    }
+
+    .col-1 {
+        -ms-flex: 0 0 8.33333%;
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%
+    }
+
+    .col-2 {
+        -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%
+    }
+
+    .col-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+
+    .col-4 {
+        -ms-flex: 0 0 33.33333%;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%
+    }
+
+    .col-5 {
+        -ms-flex: 0 0 41.66667%;
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%
+    }
+
+    .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    .col-7 {
+        -ms-flex: 0 0 58.33333%;
+        flex: 0 0 58.33333%;
+        max-width: 58.33333%
+    }
+
+    .col-8 {
+        -ms-flex: 0 0 66.66667%;
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%
+    }
+
+    .col-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%
+    }
+
+    .col-10 {
+        -ms-flex: 0 0 83.33333%;
+        flex: 0 0 83.33333%;
+        max-width: 83.33333%
+    }
+
+    .col-11 {
+        -ms-flex: 0 0 91.66667%;
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%
+    }
+
+    .col-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: .625rem;
+        font-weight: 400;
+        line-height: 1.5715
+    }
+
+    .h1,
+    h1 {
+        font-size: 1.625rem
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.5rem
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.375rem
+    }
+
+    .h4,
+    h4 {
+        font-size: 1.25rem
+    }
+
+    .h5,
+    h5 {
+        font-size: 1.125rem
+    }
+
+    .h6,
+    h6 {
+        font-size: 1rem
+    }
+
+    .p-0 {
+        padding: 0 !important
+    }
+
+    .ml-auto,
+    .mx-auto {
+        margin-left: auto !important
+    }
+
+    .pt-1,
+    .py-1 {
+        padding-top: .3125rem !important
+    }
+
+    .pr-1,
+    .px-1 {
+        padding-right: .3125rem !important
+    }
+
+    .pb-1,
+    .py-1 {
+        padding-bottom: .3125rem !important
+    }
+
+    .pl-0,
+    .px-0 {
+        padding-left: 0 !important
+    }
+
+    .pl-1,
+    .px-1 {
+        padding-left: .3125rem !important
+    }
+
+    .m-0 {
+        margin: 0 !important
+    }
+
+    .mt-0,
+    .my-0 {
+        margin-top: 0 !important
+    }
+
+    .mr-0,
+    .mx-0 {
+        margin-right: 0 !important
+    }
+
+    .mb-0,
+    .my-0 {
+        margin-bottom: 0 !important
+    }
+
+    .ml-0,
+    .mx-0 {
+        margin-left: 0 !important
+    }
+
+
+    @media (min-width: 576px) {
+        .col-sm {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%
+        }
+
+        .col-sm-auto {
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%
+        }
+
+        .col-sm-1 {
+            -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+            max-width: 8.33333%
+        }
+
+        .col-sm-2 {
+            -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+            max-width: 16.66667%
+        }
+
+        .col-sm-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        .col-sm-4 {
+            -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%
+        }
+
+        .col-sm-5 {
+            -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+            max-width: 41.66667%
+        }
+
+        .col-sm-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+
+        .col-sm-7 {
+            -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+            max-width: 58.33333%
+        }
+
+        .col-sm-8 {
+            -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+            max-width: 66.66667%
+        }
+
+        .col-sm-9 {
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%
+        }
+
+        .col-sm-10 {
+            -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+            max-width: 83.33333%
+        }
+
+        .col-sm-11 {
+            -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+            max-width: 91.66667%
+        }
+
+        .col-sm-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+    }
+
+    @media (min-width: 769px) {
+        .col-md {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%
+        }
+
+        .col-md-auto {
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%
+        }
+
+        .col-md-1 {
+            -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+            max-width: 8.33333%
+        }
+
+        .col-md-2 {
+            -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+            max-width: 16.66667%
+        }
+
+        .col-md-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        .col-md-4 {
+            -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%
+        }
+
+        .col-md-5 {
+            -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+            max-width: 41.66667%
+        }
+
+        .col-md-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+
+        .col-md-7 {
+            -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+            max-width: 58.33333%
+        }
+
+        .col-md-8 {
+            -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+            max-width: 66.66667%
+        }
+
+        .col-md-9 {
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%
+        }
+
+        .col-md-10 {
+            -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+            max-width: 83.33333%
+        }
+
+        .col-md-11 {
+            -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+            max-width: 91.66667%
+        }
+
+        .col-md-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+    }
+
+    @media (min-width: 992px) {
+        .col-lg {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%
+        }
+
+        .col-lg-auto {
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%
+        }
+
+        .col-lg-1 {
+            -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+            max-width: 8.33333%
+        }
+
+        .col-lg-2 {
+            -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+            max-width: 16.66667%
+        }
+
+        .col-lg-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        .col-lg-4 {
+            -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%
+        }
+
+        .col-lg-5 {
+            -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+            max-width: 41.66667%
+        }
+
+        .col-lg-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+
+        .col-lg-7 {
+            -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+            max-width: 58.33333%
+        }
+
+        .col-lg-8 {
+            -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+            max-width: 66.66667%
+        }
+
+        .col-lg-9 {
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%
+        }
+
+        .col-lg-10 {
+            -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+            max-width: 83.33333%
+        }
+
+        .col-lg-11 {
+            -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+            max-width: 91.66667%
+        }
+
+        .col-lg-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .col-xl {
+            -ms-flex-preferred-size: 0;
+            flex-basis: 0;
+            -ms-flex-positive: 1;
+            flex-grow: 1;
+            max-width: 100%
+        }
+
+        .col-xl-auto {
+            -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+            width: auto;
+            max-width: 100%
+        }
+
+        .col-xl-1 {
+            -ms-flex: 0 0 8.33333%;
+            flex: 0 0 8.33333%;
+            max-width: 8.33333%
+        }
+
+        .col-xl-2 {
+            -ms-flex: 0 0 16.66667%;
+            flex: 0 0 16.66667%;
+            max-width: 16.66667%
+        }
+
+        .col-xl-3 {
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%
+        }
+
+        .col-xl-4 {
+            -ms-flex: 0 0 33.33333%;
+            flex: 0 0 33.33333%;
+            max-width: 33.33333%
+        }
+
+        .col-xl-5 {
+            -ms-flex: 0 0 41.66667%;
+            flex: 0 0 41.66667%;
+            max-width: 41.66667%
+        }
+
+        .col-xl-6 {
+            -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+            max-width: 50%
+        }
+
+        .col-xl-7 {
+            -ms-flex: 0 0 58.33333%;
+            flex: 0 0 58.33333%;
+            max-width: 58.33333%
+        }
+
+        .col-xl-8 {
+            -ms-flex: 0 0 66.66667%;
+            flex: 0 0 66.66667%;
+            max-width: 66.66667%
+        }
+
+        .col-xl-9 {
+            -ms-flex: 0 0 75%;
+            flex: 0 0 75%;
+            max-width: 75%
+        }
+
+        .col-xl-10 {
+            -ms-flex: 0 0 83.33333%;
+            flex: 0 0 83.33333%;
+            max-width: 83.33333%
+        }
+
+        .col-xl-11 {
+            -ms-flex: 0 0 91.66667%;
+            flex: 0 0 91.66667%;
+            max-width: 91.66667%
+        }
+
+        .col-xl-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%
+        }
+    }
+
+    /* ====== Start Css Header ====== */
+    .scolloff {
+        overflow: hidden !important;
+    }
+
+    .box-header-2024-mb {
+        display: none;
+    }
+
+    .header .box-header-2024 {
+        background: #FFF;
+    }
+
+    .violet {
+        display: none;
+    }
+
+    /* ====== Start Css đổi màu Header theo banner ====== */
+    .header.active .box-header-2024,
+    .header.active .box-popup-header-sub,
+    .header.active .box-header-2024-mb .main-header-2024-mb.view1 {
+        background: #502D6F;
+    }
+
+    .header.active .box-top .box-khcc-new a {
+        color: #AFAFAF;
+    }
+
+    .header.active .box-top .box-khcc-new.active a,
+    .header.active .box-menu-sub a,
+    .header.active .box-popup-header-sub .box-sub2-menu .text-sub2-menu a {
+        color: #FFFFFF;
+    }
+
+    .header.active .box-menu-sub.active a {
+        color: #FFFFFF;
+        font-weight: 500;
+    }
+
+    .header.active .box-bottom .button-login,
+    .header.active .box-bottom .button-login:hover {
+        background: #FFFFFF;
+        box-shadow: unset;
+    }
+
+    .header.active .box-bottom .button-login span {
+        color: #502D6F;
+    }
+
+    .header.active .white {
+        display: none;
+    }
+
+    .header.active .violet {
+        display: block;
+    }
+
+    /* ====== End Css đổi màu Header theo banner ====== */
+    .main-header-2024,
+    .box-popup-sub-main {
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+    .logo-website-tpb {
+        width: 170px;
+        height: 39px;
+    }
+
+    .box-popup-header-sub {
+        width: 100%;
+        margin: 0 auto;
+        padding: 35px 0;
+        display: none;
+        position: static;
+        background: #FFF;
+    }
+
+    .box-popup-header-sub.active {
+        display: flex;
+    }
+
+    .box-top .box-khcc-new {
+        padding: 20px;
+    }
+
+    .box-top .box-khcc-new.active {
+        position: relative;
+    }
+
+    .box-top .box-khcc-new.active::after {
+        content: '';
+        border: solid #D3D3D3;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 4px;
+        position: absolute;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transform: rotate(225deg);
+        bottom: -5px;
+        left: 35%;
+        background: #FFF;
+    }
+
+    .header.active .box-top .box-khcc-new.active::after {
+        content: '';
+        border: solid #8D6BAB;
+        border-width: 0 1px 1px 0;
+        background: #502D6F;
+    }
+
+    .box-top .box-khcc-new.active a {
+        color: #863ACC;
+        font-weight: 500;
+    }
+
+    .box-top .box-khcc-new:first-child {
+        padding-left: 0;
+    }
+
+    .box-top .box-khcc-new a {
+        font-size: 16px;
+        line-height: 19.2px;
+        text-align: left;
+        color: #AFAFAF;
+    }
+
+    .box-icon-header-new-2024 {
+        position: relative;
+    }
+
+    .tooltip {
+        position: absolute;
+        width: max-content;
+        top: 50px;
+        padding: 5px 10px;
+        background: #E9DBF5;
+        z-index: 10;
+        text-align: center;
+        border-radius: 20px;
+        color: #863ACC;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .box-icon-header-new-2024:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .box-bottom {
+        border-top: 1px solid #D3D3D3;
+    }
+
+    .header.active .box-bottom {
+        border-top: 1px solid #8D6BAB;
+    }
+
+    .box-bottom .box-menu-sub {
+        padding: 20px 20px;
+        flex: 0 0 auto;
+    }
+
+    .box-bottom .box-sub1-menu {
+        display: none;
+    }
+
+    .box-bottom .box-sub1-menu.active {
+        display: flex;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: grab;
+    }
+
+    .box-bottom .box-menu-sub:first-child {
+        padding-left: 0;
+    }
+
+    .box-menu-sub a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        text-align: left;
+        color: #6F6F6F;
+    }
+
+    .box-menu-sub a:hover {
+        color: #5C278B;
+    }
+
+    .box-bottom .button-login {
+        width: 137px;
+        height: 50px;
+        padding: 10px 30px 10px 30px;
+        gap: 10px;
+        border-radius: 8000px;
+        background: #5C278B;
+        display: flex;
+        position: relative;
+    }
+
+    .box-bottom .button-login:hover {
+        box-shadow: 0px 5px 10px 0px #6E4096CC inset;
+        background: linear-gradient(90deg, #8444bb, #39234c);
+    }
+
+    .box-bottom .button-login span {
+        padding: 5px 0px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+        color: #fff;
+    }
+
+    .box-bottom .button-login .box-login {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #fff;
+        padding: 20px;
+        width: 220px;
+        border-radius: 20px;
+        display: grid;
+        box-shadow: 0px 15px 30px -10px #D4B3ED33;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .box-bottom .button-login .box-login.active {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .box-bottom .button-login .box-login a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: #6F6F6F;
+    }
+
+    .box-popup-header-sub .box-sub2-menu .text-sub2-menu a {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20.8px;
+        color: #6F6F6F;
+    }
+
+    .box-popup-header-sub .box-sub2-menu {
+        display: none;
+    }
+
+    .box-popup-header-sub .box-sub2-menu.active {
+        display: block;
+    }
+
+    .stOverflowAuto {
+        overflow: unset !important;
+    }
+
+    #header {
+        position: sticky;
+        z-index: 1000 !important;
+        top: 0;
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .choise-lang {
+        background: #FFF;
+        border-radius: 8px;
+        padding: 5px 10px;
+        right: 0;
+        width: 100px;
+        border: none;
+    }
+
+    .choise-lang a {
+        font-size: 16px;
+        margin: 5px 0;
+        font-weight: 500;
+        line-height: 20.8px;
+        text-align: left;
+        color: #6F6F6F;
+    }
+
+    .choise-lang a:hover,
+    .choise-lang a.selected {
+        background-color: transparent;
+        color: #5C2291;
+    }
+
+    .bạkground-tranpre {
+        background: #00000080;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        z-index: 1000 !important;
+        /* backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px); */
+        border-radius: 5px;
+        display: none;
+    }
+
+    .box-search-popup {
+        position: absolute;
+        z-index: 10001;
+        top: 30px;
+        left: 50%;
+        display: none;
+        transform: translate(-50%, 5%);
+    }
+
+    .box-lang-mobile {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80vw;
+        transform: translate(-50%, -50%);
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 10px 30px -10px #45049833;
+        display: none;
+    }
+
+    .box-lang-mobile a {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 32.8px;
+        color: #6F6F6F;
+        padding: 10px 20px;
+    }
+
+    .box-lang-mobile a.selected {
+        color: #5C2291;
+    }
+
+    .bạkground-tranpre.active,
+    .box-search-popup.active {
+        display: block;
+    }
+
+    .box-lang-mobile.active {
+        display: grid;
+    }
+
+    #cse-search-box-new {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .input-search-box-new {
+        display: flex;
+        justify-content: center;
+        background: #FFF;
+        border-radius: 8px;
+        padding: 5px 20px;
+    }
+
+    .input-search-box-new .input-search {
+        width: 100%;
+    }
+
+    .search_gg {
+        background: url(/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/search.png);
+        background-size: 25px 25px;
+        height: 22px;
+        width: 25px;
+    }
+
+    .box-flast-link-header {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #FFF;
+        position: relative;
+        top: 15px;
+    }
+
+    .box-flast-link-header::after {
+        background-image: none;
+    }
+
+    .header-flast-link {
+        font-style: unset;
+        color: #5C2291;
+    }
+
+    .list-flast-link-menu {
+        list-style: none;
+        padding: 5px 0;
+    }
+
+    .box-list-data-detail-mb,
+    .list-menu-sub1-mobile.active,
+    .box-detail-sub-1-mb,
+    .box-sub2-menu-mb {
+        display: none;
+    }
+
+    .box-list-data-detail-mb.active,
+    .box-detail-sub-1-mb.active,
+    .box-sub2-menu-mb.active {
+        display: block;
+    }
+
+    .box-flast-link-header .list-flast-link-menu a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        color: #6F6F6F;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-menu-sub-mb {
+        border-bottom: 1px solid #F1F1F1;
+        margin: 10px 0;
+        padding: 5px 0;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-menu-sub-mb .box-flex-sub2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-menu-sub-mb .box-flex-sub2 a {
+        color: #6F6F6F;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 36.2px;
+
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-menu-sub-mb .box-flex-sub2 img {
+        width: 12px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-title-relative {
+        position: relative;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .title-sub1-mb {
+        background: #F6F1FB;
+        padding: 10px 30px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+        text-align: left;
+        color: #6F6F6F;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-title-relative .box-toltip-title {
+        display: none;
+        position: absolute;
+        top: 45px;
+        background: #F6F1FB;
+        width: 100%;
+        z-index: 100;
+        border-radius: 8px;
+        padding: 10px 30px;
+    }
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-title-relative .box-toltip-title.active {
+        display: grid;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-title-relative .box-toltip-title a {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        color: #6F6F6F;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .title-sub1-mb img {
+        width: 12px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .box-sub2-menu-mb.active {
+        padding: 10px 0;
+    }
+
+    .box-sub2-menu-mb.active .text-sub2-menu-mb a {
+        color: #6F6F6F;
+        font-size: 14px;
+        font-weight: 300;
+        padding: 5px 0;
+        line-height: 24px;
+    }
+
+    .box-sub2-menu-mb.active .text-sub2-menu-mb a:hover {
+        font-weight: 400;
+    }
+
+    .box-list-data-detail-mb .box-detail-sub-1-mb .box-menu-sub-mb.active .box-flex-sub2 img {
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+    .border-bottom-header-violet {
+        border-bottom: 1px solid #8D6BAB;
+    }
+
+    .border-bottom-header-white {
+        border-bottom: 1px solid #D3D3D3;
+    }
+
+    body.scolloff {
+        overflow: hidden;
+    }
+
+    .dke-tk-onl-parent {
+        z-index: 1000 !important;
+    }
+
+    .header .box-header-2024-mb .main-header-2024-mb.view2 {
+        display: none;
+    }
+
+    .header .box-header-2024-mb .main-header-2024-mb.view1.close {
+        display: none;
+    }
+
+    .header .box-header-2024-mb .main-header-2024-mb.view2.active {
+        display: flex;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .dke-dk-tk-onl {
+            left: 90%;
+            transform: translateX(-81%);
+        }
+
+        .dke-dk-triangle {
+            left: 65%;
+        }
+
+        .dke-dk-triangle-bg {
+            right: 121px;
+        }
+    }
+
+    /* chỉnh sửa màn 1025px */
+    @media only screen and (max-width: 1025px) {
+        .sub-nice-menu-inner {
+            position: absolute;
+            right: 45%;
+        }
+
+    }
+
+    @media (max-width: 1170px) {
+        .main-header-2024 {
+            width: 100%;
+        }
+    }
+
+
+    @media (max-width: 1170px) {
+        .box-header-2024 {
+            display: none;
+        }
+
+        .box-header-2024-mb {
+            display: block;
+            background: #FFF;
+        }
+
+        .main-header-2024-mb {
+            margin: 0;
+            padding: 15px 0;
+
+        }
+
+        .logo-website-tpb-mb {
+            width: 50%;
+        }
+
+        .box-list-menu-mb {
+            display: none;
+            height: calc(100vh - 70px);
+            overflow-y: auto;
+            padding: 0 20px;
+            padding-top: 20px;
+        }
+
+        .box-list-menu-mb.active {
+            display: block
+        }
+
+        .box-list-menu-mb .main-menu-sub1-mb {
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box-list-menu-mb .main-menu-sub1-mb a {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 19.2px;
+            color: #6F6F6F;
+
+        }
+
+        .btnOpenSubMenu,
+        .btnOpenSub2Menu {
+            width: 20px;
+            height: 20px;
+            text-align: end;
+        }
+
+        .box-list-menu-mb .main-menu-sub1-mb img {
+            width: 12px;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+
+        #cse-search-box-new {
+            width: 80vw;
+        }
+
+        .box-bottom-menu-mobile {
+            display: grid;
+            width: 100%;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+
+        .box-bottom-menu-mobile a {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 32.8px;
+            text-align: left;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #6F6F6F;
+        }
+
+        .box-bottom-menu-mobile img {
+            width: 12px;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -o-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+    }
+
+    @media (max-width: 920px) {
+        .logo-website-tpb-mb {
+            width: 80%;
+        }
+
+        .box-list-menu-mb {
+            display: none;
+            height: calc(100vh - 54px);
+            overflow-y: auto;
+            padding: 0 20px;
+            padding-top: 20px;
+        }
+    }
+
+    @media (max-width: 769px) {
+        .logo-website-tpb-mb {
+            width: 80%;
+        }
+
+        .box-list-menu-mb {
+            display: none;
+            height: calc(100vh - 54px);
+            overflow-y: auto;
+            padding: 0 20px;
+            padding-top: 20px;
+        }
+    }
+
+    @media (max-width: 520px) {
+        .logo-website-tpb-mb {
+            width: 90%;
+        }
+    }
+
+    @media (max-width: 425px) {
+        .logo-website-tpb-mb {
+            width: 100%;
+        }
+    }
+
+
+    /* ====== End Css Header ====== */
+</style>
+<header id="header" class="header containerNewHear">
+    <div id="headerNew" class="box-header-2024">
+        <div class="main-header-2024 row">
+            <style>
+#boxSub1Menu {
+   padding-left: 0;
+}
+</style>
+<div class="col-lg-2 align-items-center justify-content-start pl-0 d-flex">
+    <a href="https://tpb.vn/ca-nhan" >
+		<img class="logo-website-tpb white" src="/wps/wcm/connect/a85b875d-ad73-4591-8fd5-e8417a69c316/logo-tpb.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-a85b875d-ad73-4591-8fd5-e8417a69c316-pjudclH"
+			alt="" title="Logo TPBank">
+		<img class="logo-website-tpb violet" src="/wps/wcm/connect/90f5dc35-bac5-4032-b8ab-ad309077554b/logo-fix%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-90f5dc35-bac5-4032-b8ab-ad309077554b-pjudclH" alt=""
+			title="Logo TPBank">
+    </a>
+</div>
+<div class="col-lg-10">
+    <div class="box-top row">
+        <div class="col-lg-9 row" data-path="/tpbank_data/sa-website/manage-web/component-common/header/header">
+            <div class="box-khcc-new" id="main-menu-header-khcn" path="/tpbank_data/sa-website/manage-web/component-common/header/menu-header-khcn/menu-header-khcn" nametag="menu-header-khcn">
+    <a href="https://tpb.vn/ca-nhan">Cá nhân</a>
+</div>
+<div class="box-khcc-new" id="main-menu-header-khdn" path="/tpbank_data/sa-website/manage-web/component-common/header/menu-header-khdn/menu-header-khdn" nametag="menu-header-khdn">
+    <a href="https://tpb.vn/doanh-nghiep">Doanh nghiệp</a>
+</div>
+<div class="box-khcc-new" id="main-menu-header-khcc" path="/tpbank_data/sa-website/manage-web/component-common/header/menu-header-khcc/menu-header-khcc" nametag="menu-header-khcc">
+    <a href="https://tpb.vn/khach-hang-cao-cap">Khách hàng cao cấp</a>
+</div>
+
+        </div>
+        <div class="col-lg-3 row justify-content-end p-0 ml-auto">
+            <div class="box-icon-header-new-2024 col-lg-3 align-items-center justify-content-center d-flex">
+                <a onclick="openPopupSearch()">
+                    <img class="icon-header-menu white" src="/wps/wcm/connect/e0708e1d-1405-4f48-a6be-57753cac5bb5/icon-search.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-e0708e1d-1405-4f48-a6be-57753cac5bb5-pjudclH" alt="" title="Logo TPBank">
+                    <img class="icon-header-menu violet" src="/wps/wcm/connect/6c7ff6c9-e494-4e7a-9225-e447981135cd/fi_search.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-6c7ff6c9-e494-4e7a-9225-e447981135cd-pjudclH" alt="" title="Logo TPBank">
+                </a>
+                <div class="tooltip">Tìm kiếm</div>
+            </div>
+            <div class="box-icon-header-new-2024 col-lg-3 align-items-center justify-content-center d-flex">
+                <a href="https://tpb.vn/cong-cu-tinh-toan/lai-suat">
+                    <img class="icon-header-menu white" src="/wps/wcm/connect/53517279-7e3c-47fa-8860-c94bd33d94c4/icon-rate.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-53517279-7e3c-47fa-8860-c94bd33d94c4-pjudclH" alt="" title="Logo TPBank">
+                    <img class="icon-header-menu violet" src="/wps/wcm/connect/1b9696b3-7ead-4bd7-9d23-0173398dfafb/T%E1%BB%B7+gi%C3%A1.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-1b9696b3-7ead-4bd7-9d23-0173398dfafb-pjudclH" alt="" title="Logo TPBank">
+                </a>
+                <div class="tooltip">Lãi suất và công cụ</div>
+            </div>
+            <div class="box-icon-header-new-2024 col-lg-3 align-items-center justify-content-center d-flex">
+                <a href="https://tpb.vn/tim-diem-giao-dich?iservice= 1">
+                    <img class="icon-header-menu white" src="/wps/wcm/connect/e3597cbb-3379-4a0a-86ce-e1364a663c76/icon-map%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-e3597cbb-3379-4a0a-86ce-e1364a663c76-pjudclH" alt="" title="Logo TPBank">
+                    <img class="icon-header-menu violet" src="/wps/wcm/connect/e80fe36f-4e22-42cd-a1b3-1e7119150609/%C4%90%E1%BB%8Ba+%C4%91i%E1%BB%83m.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-e80fe36f-4e22-42cd-a1b3-1e7119150609-pjudclH" alt="" title="Logo TPBank">
+                </a>
+                <div class="tooltip">Điểm giao dịch</div>
+            </div>
+            <div class="box-icon-header-new-2024 col-lg-3 align-items-center justify-content-center d-flex">
+                <a class="select-lang">
+                    <img class="icon-header-menu white" src="/wps/wcm/connect/62ec6798-407f-409b-9e20-d90cddc676ba/icon-lang.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-62ec6798-407f-409b-9e20-d90cddc676ba-pjudclH" alt="" title="Logo TPBank" id="edit-lang-dropdown-select_titletext">
+                    <img class="icon-header-menu violet" src="/wps/wcm/connect/94b5ac74-8212-410a-98e2-609d81370f7e/Ng%C3%B4n+ng%E1%BB%AF.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-94b5ac74-8212-410a-98e2-609d81370f7e-pjudclH" alt="" title="Logo TPBank" id="edit-lang-dropdown-select_titletext">
+                </a>
+                <div class="tooltip">Ngôn ngữ</div>
+
+                <div class="choise-lang">
+                    <a href="javascript:void(0);" onclick="changeUrlVN();" class="langVN">
+                        Tiếng việt
+                    </a>
+                    <a href="javascript:void(0);" onclick="changeUrlEng();" class="langEN">
+                        English
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box-bottom row">
+        <div class="col-lg-9 align-items-center d-flex" id="boxSub1Menu">
+        </div>
+        <div class="col-lg-3 pb-1 pt-1 d-flex justify-content-end align-items-center">
+            <div class="button-login justify-content-center"><span>Đăng nhập</span>
+                <div class="box-login">
+                    <a href="https://ebank.tpb.vn/retail/vX" >Đăng nhập ngân hàng số</a>
+<a href="https://biz.tpb.vn/" >Đăng nhập TPBank Biz</a>
+                    <a class="category-box-detail-item-dktk">Đăng ký tài khoản online</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="border-bottom-header-white white"></div>
+        <div class="border-bottom-header-violet violet"></div>
+        <div class="box-popup-header-sub">
+            <div class="box-popup-sub-main row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-10" id="mainSub2Menu">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="headerNewMb" class="box-header-2024-mb">
+        <div class="main-header-2024-mb view1 row">
+    <div class="col-5 align-items-center justify-content-center d-flex">
+	<a href="https://tpb.vn/ca-nhan" >
+		<img class="logo-website-tpb-mb white" src="/wps/wcm/connect/a85b875d-ad73-4591-8fd5-e8417a69c316/logo-tpb.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-a85b875d-ad73-4591-8fd5-e8417a69c316-pjudclH" alt="" title="Logo TPBank">
+		<img class="logo-website-tpb-mb violet" src="/wps/wcm/connect/90f5dc35-bac5-4032-b8ab-ad309077554b/logo-fix%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-90f5dc35-bac5-4032-b8ab-ad309077554b-pjudclH" alt="" title="Logo TPBank">
+	</a>
+    </div>
+    <div class="col-4 row align-items-center justify-content-end p-0 ml-auto mr-0" id="btnOpenMobile">
+        <div class="col-4" onclick="openPopupSearch()">
+            <img class="white" src="/wps/wcm/connect/6ed5dce2-1964-4f5a-a4c9-e4a0b771ccef/fi_search.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-6ed5dce2-1964-4f5a-a4c9-e4a0b771ccef-pjudclH"
+                alt="">
+            <img class="violet " src="/wps/wcm/connect/6c7ff6c9-e494-4e7a-9225-e447981135cd/fi_search.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-6c7ff6c9-e494-4e7a-9225-e447981135cd-pjudclH" alt="">
+        </div>
+        <div class="col-4">
+            <a href="https://tpb-ebankx.onelink.me/As35/F">
+                <img class="white" src="/wps/wcm/connect/5e9fd72a-4c21-4fd6-be07-0871024d7b3c/fi_user-check%2B%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5e9fd72a-4c21-4fd6-be07-0871024d7b3c-pjudclH"
+                    alt="">
+                <img class="violet" src="/wps/wcm/connect/95614fe9-46de-4444-9d53-827fb6aeb51b/fi_user-check.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-95614fe9-46de-4444-9d53-827fb6aeb51b-pjudclH" alt="">
+            </a>
+        </div>
+        <div class="col-4" id="btOpenMenuMb">
+            <img class="white" src="/wps/wcm/connect/b407af28-5c6e-4cd4-abee-763efb8b1a11/u_bars.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-b407af28-5c6e-4cd4-abee-763efb8b1a11-pjudclH"
+                alt="">
+            <img class="violet" src="/wps/wcm/connect/d9f87e7a-d9a1-447c-b0a0-1917b4e0dfcd/fi_user-check.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-d9f87e7a-d9a1-447c-b0a0-1917b4e0dfcd-pjudclH" alt="">
+        </div>
+    </div>
+</div>
+<div class="main-header-2024-mb view2 row">
+    <div class="col-5 align-items-center justify-content-center d-flex">
+        <img class="logo-website-tpb-mb" src="/wps/wcm/connect/a85b875d-ad73-4591-8fd5-e8417a69c316/logo-tpb.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-a85b875d-ad73-4591-8fd5-e8417a69c316-pjudclH" alt="" title="Logo TPBank">
+    </div>
+    <div class="col-4 row align-items-center justify-content-end p-0 ml-auto mr-0 d-none" id="btnCloseMobile">
+        <div class="col-4" id="btCloseMenuMb">
+            <img src="/wps/wcm/connect/1ec9fff7-690e-4568-9a4f-789b4c9cedd9/standalone.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-1ec9fff7-690e-4568-9a4f-789b4c9cedd9-pjudclH" alt="">
+        </div>
+    </div>
+</div>
+
+
+        <div class="box-list-menu-mb">
+            <div class="list-menu-sub1-mobile" id="listMenuSub1Mb">
+                <div class="main-menu-sub1-mb" path="/tpbank_data/sa-website/manage-web/component-common/header/menu-header-khcn/menu-header-khcn" nametag="menu-header-khcn">
+    <a href="https://tpb.vn/ca-nhan">Cá nhân 
+    </a>
+<div class="btnOpenSubMenu" onclick="openMenuSub2Mobile('menu-header-khcn','Cá nhân')">
+<img src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/arrow-right-khcn-op1.png">
+</div>
+</div>
+<div class="main-menu-sub1-mb" path="/tpbank_data/sa-website/manage-web/component-common/header/menu-header-khdn/menu-header-khdn" nametag="menu-header-khdn">
+    <a href="https://tpb.vn/doanh-nghiep">Doanh nghiệp 
+    </a>
+<div class="btnOpenSubMenu" onclick="openMenuSub2Mobile('menu-header-khdn','Doanh nghiệp')">
+<img src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/arrow-right-khcn-op1.png">
+</div>
+</div>
+<div class="main-menu-sub1-mb" path="/tpbank_data/sa-website/manage-web/component-common/header/menu-header-khcc/menu-header-khcc" nametag="menu-header-khcc">
+    <a href="https://tpb.vn/khach-hang-cao-cap">Khách hàng cao cấp 
+    </a>
+<div class="btnOpenSubMenu" onclick="openMenuSub2Mobile('menu-header-khcc','Khách hàng cao cấp')">
+<img src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/arrow-right-khcn-op1.png">
+</div>
+</div>
+
+            </div>
+            <div class="box-list-data-detail-mb" id="boxListDataMb">
+
+            </div>
+            <div class="box-bottom-menu-mobile d-none">
+                <a href="">Tools &
+                    Utilities</a>
+                <a href="/lien-he-thong-tin">Contact & Support</a>
+                <a onclick="openPopupLang()">Vietnamese
+                    <img
+                        src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/arrow-right-khcn-op1.png">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="bạkground-tranpre containerNewHear" id="backgroundClick">
+    <div class="box-search-popup">
+        <form action="/tim-kiem" id="cse-search-box-new">
+            <input type="hidden" name="cx" value="partner-pub-9229736787071371:vzo19c-3q8n">
+            <input type="hidden" name="cof" value="FORID:11;NB:1">
+            <input type="hidden" name="ie" value="ISO-8859-1">
+            <div class="input-search-box-new">
+                <input type="text" id="keyword_text" class="input-search expand" placeholder="Tìm kiếm" name="q"
+                    size="28" aria-label="Search" align="right">
+                <input id="bt-site-searchgg" class="search_gg expand" value="Search" type="submit">
+            </div>
+            <div class="box-flast-link-header">
+          <div class="sub-box-flast-link">
+<div style="font-style: italic;font-weight: bold;font-size: 18px;line-height: 24px;">Liên Kết Nhanh:</div>
+<li class="list-flast-link-menu">
+        <a href="https://tpb.vn/khach-hang-ca-nhan/the-tin-dung" class="sub-menu-active"><span class="icon-search-flast-link" style="margin-right: 5px;font-size: 16px; margin-top: 5px;"></span>Thẻ tín dụng</a>
+</li>
+<li class="list-flast-link-menu">
+        <a href="https://tpb.vn/diem-uu-dai" class="sub-menu-active"><span class="icon-search-flast-link" style="margin-right: 5px;font-size: 16px; margin-top: 5px;"></span>Ưu đãi thẻ</a>
+</li>
+<li class="list-flast-link-menu">
+        <a href="https://tpb.vn/vay-mua-o-to" class="sub-menu-active"><span class="icon-search-flast-link" style="margin-right: 5px;font-size: 16px; margin-top: 5px;"></span>Vay mua ô tô</a>
+</li>
+<li class="list-flast-link-menu">
+        <a href="https://tpb.vn/cong-cu-tinh-toan/lai-suat" class="sub-menu-active"><span class="icon-search-flast-link" style="margin-right: 5px;font-size: 16px; margin-top: 5px;"></span>Lãi suất tiết kiệm</a>
+</li>
+<li class="list-flast-link-menu">
+        <a href="https://tpb.vn/cong-cu-tinh-toan/ty-gia-ngoai-te" class="sub-menu-active"><span class="icon-search-flast-link" style="margin-right: 5px;font-size: 16px; margin-top: 5px;"></span>Tỉ giá</a>
+</li>
+</div>
+</div>
+
+        </form>
+
+    </div>
+    <div class="box-lang-mobile">
+        <a href="javascript:void(0);" onclick="changeUrlVN();" class="langVN">
+            Vietnamese
+        </a>
+        <a href="javascript:void(0);" onclick="changeUrlEng();" class="langEN">
+            English
+        </a>
+    </div>
+</div>
+<!-- Màn đăng ký -->
+<style>
+    
+    body.scolloff {
+        overflow: hidden;
+    }
+
+    .dke-tk-onl-parent {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: none;
+        overflow: auto;
+        height: 100%;
+        z-index: 9;
+        background: rgba(67, 35, 100, 0.8);
+        backdrop-filter: blur(5px);
+    }
+
+    .dke-dk-tk-onl {
+        position: absolute;
+        width: 475px;
+        border-radius: 10px;
+        top: 106px;
+        left: 58%;
+        box-shadow: 0px 3px 10px rgb(0 0 0 / 25%);
+        background: #FFFFFF;
+    }
+
+    .dke-dk-triangle {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+        border-bottom: 14px solid #7B35BB;
+        right: 160px;
+        top: -12px;
+        z-index: 2;
+    }
+
+    .dke-dk-triangle-bg {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 22px solid transparent;
+        border-right: 22px solid transparent;
+        border-bottom: 14px solid #FFFFFF;
+        right: 160px;
+        top: -14px;
+    }
+
+    .dke-tk-onl-head {
+        background: #7B35BB;
+        border-radius: 10px 10px 0 0;
+        position: relative;
+        margin: 1px;
+    }
+
+    .dke-tk-onl-head p {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 67px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dke-tk-onl-step {
+        display: grid;
+        grid-template-columns: 1fr 0 1fr;
+        grid-row-gap: 12px;
+        position: relative;
+        text-align: center;
+        padding-top: 34px;
+    }
+
+    .dke-dk-img-step {
+        position: absolute;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, 0);
+        height: 23px;
+        background-color: #ffffff;
+    }
+
+    .dke-dk-line {
+        height: 110px;
+        width: 1px;
+        opacity: 0.5;
+        background-color: rgba(52, 52, 65, 0.3);
+        ;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .dke-dk-img-step img {
+        margin-top: 4px;
+    }
+
+    .dke-tk-onl-step span {
+        width: 100%;
+        text-align: center;
+    }
+
+    .dke-tk-step .dke-tk-step-a {
+        display: inline-block;
+        font-size: 16px;
+        color: #7B35BB;
+        width: 106px;
+        line-height: 36px;
+        background-color: #FFFFFF;
+        border-radius: 16px;
+        font-weight: bold;
+        border: 1px solid #7B35BB;
+    }
+
+    .dke-tk-step .dke-tk-step-a.active {
+        color: #FFFFFF;
+        background-color: #7B35BB;
+        ;
+    }
+
+
+    .dke-tk-onl-step p {
+        text-align: center;
+        font-size: 14px;
+        color: #7A7D9A;
+        font-weight: normal;
+        line-height: 18px;
+        margin: 9px 0 0 0;
+    }
+
+    .dke-tk-onl-body {
+        padding: 0 21px;
+        padding-bottom: 30px;
+    }
+
+    .dke-tk-onl-body p.title-qr-code {
+        margin: 25px 0 22px 0;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: #7B35BB;
+        ;
+    }
+
+    .dke-tk-onl-body .dke-tk-title {
+        margin: 27px 0 27px 0;
+    }
+
+    .dke-dktk-items {
+        display: grid;
+        grid-template-columns: 1fr 0.4px 168px 0.4px 1fr;
+    }
+
+    .dke-img-qr-code {
+        text-align: center;
+        border-bottom: 1px solid #5E2E86;
+        padding-bottom: 30px;
+    }
+
+    .dke-dktk-item {
+        text-align: center;
+    }
+
+    .dke-dktk-item:first-child {
+        padding: 0 32px 0 16px;
+    }
+
+
+    .dke-dktk-item:last-child {
+        border: unset;
+    }
+
+    .dke-dktk-item img {
+        width: 86px;
+        height: 82px;
+    }
+
+    .dke-dktk-item p.subtitle-qr-code {
+        font-size: 14px;
+        margin: 13px 0 0 0;
+        color: #7B35BB;
+        font-weight: normal;
+        line-height: 20px;
+        text-transform: uppercase;
+    }
+
+    .dke-border-y {
+        margin: 5px 0 0 0;
+        padding: 0;
+        background-color: #5E2E86;
+        height: 111px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        opacity: 0.5;
+        width: 1px;
+    }
+
+    .dke-dktk-item p {
+        color: #7A7D9A;
+        font-size: 12px;
+        font-weight: normal;
+        margin: 0;
+        line-height: 14px;
+    }
+
+    .dke-dktk-item:last-child h2 {
+        padding: 0 25px
+    }
+
+    .dke-dktk-item:last-child p {
+        padding: 0 16px !important;
+    }
+
+    .dke-tk-mb {
+        text-align: center !important;
+        margin-top: 18px;
+    }
+
+    .dke-tk-mb img {
+        margin-right: 6px;
+    }
+
+    .dke-dkol-mb {
+        cursor: pointer;
+        font-size: 16px ;
+        font-weight: normal !important;
+        color: #FFFFFF !important;
+        text-decoration: none !important;
+        border-bottom: 1px solid #FFFFFF !important;
+        border-radius: unset !important;
+        padding: 0 0 4px 0 !important;
+        background: unset !important;
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .dke-dk-tk-onl {
+            left: 90%;
+            transform: translateX(-81%);
+        }
+
+        .dke-dk-triangle {
+            left: 65%;
+        }
+
+        .dke-dk-triangle-bg {
+            right: 121px;
+        }
+    }
+
+    /* chỉnh sửa màn 1025px */
+    @media only screen and (max-width: 1025px) {
+        .sub-nice-menu-inner {
+            position: absolute;
+            right: 45%;
+        }
+
+    }
+</style>
+<div class="dke-tk-onl-parent">
+                <div class="dke-dk-tk-onl">
+                    <div class="dke-tk-onl-head">
+                        <span class="dke-dk-triangle"></span>
+                        <span class="dke-dk-triangle-bg"></span>
+                        <p>Đăng ký Tài khoản Online</p>
+                    </div>
+                    <div class="dke-tk-onl-body">
+                        <div class="dke-tk-onl-step">
+                            <div class="dke-tk-step">
+                                <a class="dke-tk-step-a active">BƯỚC 1</a>
+                                <p>Quét mã QR, tải App<br/> TPBank Mobile trên <br/>
+Play Store & App Store</p>
+
+                            </div>
+                            <div class="dke-dk-line"></div>
+                            <div class="dke-dk-img-step"><img
+                                    src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/css/images/img_card/dkeb-right.png">
+                            </div>
+                            <div class="dke-tk-step">
+                                <a class="dke-tk-step-a">BƯỚC 2</a>
+                                <p>Cài đặt & mở <br/>
+Tài khoản Online <br/>
+trong 5 phút</p>
+
+                            </div>
+                        </div>
+                        <p class="title-qr-code">QUÉT MÃ QR TẢI APP TPBANK MOBILE TẠI ĐÂY
+                        </p>
+
+                        <!--    QR code-->
+                        <div class="dke-img-qr-code"><img src="/wps/wcm/connect/93c7e955-d4c0-4621-a3a4-2cb03be584cb/frame+%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-93c7e955-d4c0-4621-a3a4-2cb03be584cb-o16AOYo" alt="" width="242" height="242"></div>
+
+                        <p class="dke-tk-title title-qr-code">Nhận 1001+ lợi ích và ưu đãi với Tài khoản TPBank</p>
+
+                        <div class="dke-dktk-items">
+                            <div class="dke-dktk-item">
+                                <img src="/wps/wcm/connect/5c2aa0c0-b6e0-4f00-a31b-31282f7ab44b/Group.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5c2aa0c0-b6e0-4f00-a31b-31282f7ab44b-o16AOYo" alt="" width="87" height="83">
+                                <p class="subtitle-qr-code">MIỄN PHÍ</p>
+<p>Chuyển tiền và 60+ loại phí</p>
+
+
+                            </div>
+                            <div class="dke-border-y"></div>
+                            <div class="dke-dktk-item">
+                                <img src="/wps/wcm/connect/76131007-5966-4240-8e6d-aab19d395a64/Group+1643.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-76131007-5966-4240-8e6d-aab19d395a64-o16AOYo" alt="" width="98" height="80">
+                                <p class="subtitle-qr-code">HOÀN TIỀN 1,2%</p>
+<p>Với Thẻ TPBank Visa</p>
+
+                            </div>
+                            <div class="dke-border-y"></div>
+                            <div class="dke-dktk-item">
+                                <img src="/wps/wcm/connect/076c6160-8a3b-4e36-a0a4-64210d57b269/Layer+1.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-076c6160-8a3b-4e36-a0a4-64210d57b269-o16AOYo" alt="" width="93" height="78">
+                                <p class="subtitle-qr-code"> CHỌN SỐ TÀI KHOẢN</p>
+<p>Theo ý thích, khẳng định cá tính</p>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<script>
+ $(".dke-tk-onl-parent").click(function (evt) {
+        var target = evt.target.className;
+        var inside = "dke-tk-onl-parent";
+        if ($.trim(target) != '') {
+            if (target == inside) {
+                $('body').removeClass('scolloff')
+                $(this).css("display", "none");
+            }
+        }
+    });
+    $(window).resize(function () {
+        const windWidth = $(window).innerWidth();
+        if (windWidth <= 987) {
+            $('body').removeClass('scolloff')
+            $('.dke-tk-onl-parent').css("display", "none");
+        }
+    });
+
+</script>
+
+<!-- kết thúc đăng ký tài khoản -->
+<script>
+    var arrayColor = [
+{
+"colorMultiple": "#EDEEF2$#0000001a"
+}
+]
+;
+
+    function findDataColorHeader() {
+        arrayColor.forEach((items, index) => {
+            if (items.colorMultiple.includes('$')) {
+                const colors = items.colorMultiple.split('$');
+                $('#header')[0].style.boxShadow = `0px 15px 30px 0px ${colors[1]}`;
+            }
+        });
+    }
+
+    function fetchAllParallel(elements, getUrlCallback) {
+		const promises = [];
+		elements.each(function(index, el) {
+			const url = getUrlCallback($(this));
+			if (url) {
+				const request = fetch(url).then(async(res)=> {
+                    const data = await res.text();
+					return { index: index, html: data, element: el };
+				});
+				promises.push(request);
+			}
+		});
+		return Promise.all(promises);
+	}
+    const listBoxTop = $(".box-top .box-khcc-new");
+    if (listBoxTop.length > 0) {
+        fetchAllParallel(listBoxTop, function(el) {
+            const path = el.attr("path");
+            return "/wps/wcm/connect" + path + "?source=library&srv=cmpnt&cmpntid=b909735e-ab90-4c5d-9cd2-fc624f0c12ca";
+        }).then(function(results) {
+            results.sort((a, b) => a.index - b.index);
+            const finalHtml = results.map(r => r.html).join('');
+            $('#boxSub1Menu').append(finalHtml);
+            const listBoxBottom = $(".box-bottom .box-menu-sub");
+            fetchAllParallel(listBoxBottom, function(el) {
+                const path = el.attr("path");
+                return "/wps/wcm/connect" + path + "?source=library&srv=cmpnt&cmpntid=178118e1-95fc-4699-ba35-4fdfbf85c9c0";
+            }).then(function(results) {
+                results.sort((a, b) => a.index - b.index);
+                const finalHtml = results.map(r => r.html).join('');
+                $('#mainSub2Menu').append(finalHtml);
+                menuHover();
+            })
+        })
+
+    }
+    const listBoxTopMb = $(".box-top .box-khcc-new");
+    if (listBoxTopMb.length > 0) {
+        fetchAllParallel(listBoxTopMb, function(el) {
+            const path = el.attr("path");
+            return "/wps/wcm/connect" + path + "?source=library&srv=cmpnt&cmpntid=8e401aef-d4b3-4bf8-bb52-736de863f513";
+        }).then(function(results) {
+            results.sort((a, b) => a.index - b.index);
+            const finalHtml = results.map(r => r.html).join('');
+            $('#boxListDataMb').append(finalHtml);
+            const listSubMb = $("#boxListDataMb .box-menu-sub-mb");
+            if (listSubMb.length > 0) {
+                const promises4 = [];
+                listSubMb.each(function() {
+                    const path = $(this).attr("path");
+                    const targetId = $(this).data("id"); // Dùng .data('id') thay vì dataset
+                    const url = "/wps/wcm/connect" + path + "?source=library&srv=cmpnt&cmpntid=4c0a5da9-1b59-4dd2-930d-02a63a9b533b";
+                    const req = fetch(url).then(async(res) => {
+                        $('#' + targetId).append(await res.text());
+                    });
+                    promises4.push(req);
+                });
+            }
+        });
+    }
+    //06012025
+    // $(".box-top .box-khcc-new").each(function () {
+    //     const path1 = $(this).attr("path");
+    //     var fullPath = "/wps/wcm/connect" + path1 + "?source=library&srv=cmpnt&cmpntid=b909735e-ab90-4c5d-9cd2-fc624f0c12ca";
+    //     $.ajax({
+    //         type: "GET",
+    //         url: fullPath,
+    //         async: false,
+    //         success: function (text) {
+    //             $('#boxSub1Menu').append(text);
+    //         }
+    //     });
+    // });
+
+    // var path2 = '';
+    // $(".box-bottom .box-menu-sub").each(function () {
+    //     const path2 = $(this).attr("path");
+    //     var fullPath = "/wps/wcm/connect" + path2 + "?source=library&srv=cmpnt&cmpntid=178118e1-95fc-4699-ba35-4fdfbf85c9c0";
+    //     $.ajax({
+    //         type: "GET",
+    //         url: fullPath,
+    //         async: false,
+    //         success: function (text) {
+    //             $('#mainSub2Menu').append(text);
+    //         }
+    //     });
+    // });
+    // $(".box-top .box-khcc-new").each(function () {
+    //     const pathMB = $(this).attr("path");
+    //     var fullPath = "/wps/wcm/connect" + pathMB + "?source=library&srv=cmpnt&cmpntid=8e401aef-d4b3-4bf8-bb52-736de863f513";
+    //     $.ajax({
+    //         type: "GET",
+    //         url: fullPath,
+    //         async: false,
+    //         success: function (text) {
+    //             $('#boxListDataMb').append(text);
+    //         }
+    //     });
+    // });
+
+    // $("#boxListDataMb .box-menu-sub-mb").each(function () {
+    //     const pathMBSub3 = $(this).attr("path");
+    //     const idMB = $(this)[0].dataset.id;
+    //     const fullPathMB = "/wps/wcm/connect" + pathMBSub3 + "?source=library&srv=cmpnt&cmpntid=4c0a5da9-1b59-4dd2-930d-02a63a9b533b";
+    //     $.ajax({
+    //         type: "GET",
+    //         url: fullPathMB,
+    //         async: false,
+    //         success: function (text) {
+    //             $('#' + idMB).append(text);
+    //         }
+    //     });
+    // });
+    function openPopupSearch() {
+        $('body').addClass('scolloff');
+        $(".bạkground-tranpre").addClass('active');
+        $(".box-search-popup").addClass('active');
+    };
+    function openPopupLang() {
+        $('body').addClass('scolloff');
+        $(".bạkground-tranpre").addClass('active');
+        $(".box-lang-mobile").addClass('active');
+    };
+
+    var modal = document.getElementById('backgroundClick');
+    // var modal1 = document.getElementsByClassName('dke-tk-onl-parent');
+
+    function openMenuSub2Mobile(id, text) {
+        if ($('#mb-' + id).length != 0) {
+            $('.box-detail-sub-1-mb').removeClass('active');
+            $('#boxListDataMb').addClass('active');
+            $('#mb-' + id).addClass('active');
+            // $('.title-sub1-mb').text(text);
+            $('#listMenuSub1Mb').addClass('active');
+            $('.box-toltip-title').removeClass('active');
+        }
+    }
+
+    $('.box-detail-sub-1-mb .box-title-relative .title-sub1-mb').click(function () {
+        var keyCheckActive = $('.box-detail-sub-1-mb.active .box-title-relative .box-toltip-title')[0].classList.contains('active');
+        if (keyCheckActive == true) { 
+            $('.box-toltip-title').removeClass('active');
+        } else {
+            $('.box-toltip-title').addClass('active');
+        }
+    });
+
+    function openMenuSub3Mobile(id) {
+        var keyCheckActive = $('#mb-sub3-' + id)[0].classList.contains('active');
+        if (keyCheckActive == true) {
+            $('.box-menu-sub-mb').removeClass('active');
+            $('.box-sub2-menu-mb').removeClass('active');
+            $('#mb-' + id).removeClass('active');
+        } else {
+            $('.box-menu-sub-mb').removeClass('active');
+            $('.box-sub2-menu-mb').removeClass('active');
+            $('#mb-sub3-' + id).addClass('active');
+            $('#mb-' + id).addClass('active');
+        }
+
+    }
+
+    $('.category-box-detail-item-dktk').click(function () {
+        $('.dke-tk-onl-parent').css("display", "block");
+        $('body').addClass('scolloff')
+    });
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            $('body').removeClass('scolloff');
+            $(".bạkground-tranpre").removeClass('active');
+            $(".box-search-popup").removeClass('active');
+            $(".box-lang-mobile").removeClass('active');
+        }
+    };
+
+    function scrollHeaderMenu(id) {
+        let headerIsDown = false;
+        let headerStartX;
+        let headerScrollLeft;
+
+        const menuHeader = document.querySelector('#' + id);
+        if(menuHeader == undefined) {
+            return
+        }
+
+        menuHeader.addEventListener('mousedown', (e) => {
+            headerIsDown = true;
+            headerStartX = e.pageX - menuHeader.offsetLeft;
+            headerScrollLeft = menuHeader.scrollLeft;
+        });
+
+        menuHeader.addEventListener('mouseleave', () => {
+            headerIsDown = false;
+        });
+
+        menuHeader.addEventListener('mouseup', () => {
+            headerIsDown = false;
+        });
+
+        menuHeader.addEventListener('mousemove', (e) => {
+            if (!headerIsDown) return; // Nếu không đang kéo thì thoát
+            e.preventDefault(); // Ngăn chặn sự kiện mặc định
+            const x = e.pageX - menuHeader.offsetLeft;
+            const walk = (x - headerStartX) * 2; // Điều chỉnh tốc độ kéo
+            menuHeader.scrollLeft = headerScrollLeft - walk; // Cập nhật scrollLeft
+        });
+    };
+
+    function menuHover(){
+    	findDataColorHeader();
+    	if(window.location.pathname.includes('/doanh-nghiep')){
+    		$("#main-menu-header-khdn").addClass("active");
+        	$("#menu-header-khdn").addClass("active");	
+    	}
+    	else{
+    		$("#main-menu-header-khcn").addClass("active");
+        	$("#menu-header-khcn").addClass("active");	
+    	}
+        
+        $(".box-top .box-khcc-new").hover(function (e) {
+            $(".box-top .box-khcc-new").removeClass("active");
+            $(".box-bottom .box-sub1-menu").removeClass("active");
+            $(this).addClass("active");
+            let nametag = $(this).attr('nametag');
+            $("#" + nametag).addClass("active");
+        });
+        let hoverKeyActive;
+        const hover1Element = document.querySelectorAll('.box-menu-sub');
+        const hover2 = document.querySelector('.box-popup-header-sub');
+        let timeoutId;
+        $(".box-bottom .box-sub1-menu .box-menu-sub").hover(function (e) {
+            $(".box-bottom .box-sub1-menu .box-menu-sub").removeClass("active");
+            $(".box-popup-header-sub .box-sub2-menu").removeClass("active");
+            $(this).toggleClass("active");
+            var id = $(this)[0].dataset.id;
+            hoverKeyActive = $("#" + id + ".box-sub2-menu").length;
+            if (hoverKeyActive == 0) {
+                hover2.style.display = "none";
+            } else {
+                hover2.style.display = "flex";
+            }
+            $("#" + id + ".box-sub2-menu").toggleClass("active");
+        });
+
+        hover1Element.forEach(hover1 => {
+            hover1.addEventListener('mouseover', function () {
+                clearTimeout(timeoutId);
+                $(".box-popup-header-sub").addClass("active");
+            });
+
+            hover1.addEventListener('mouseout', function () {
+                timeoutId = setTimeout(function () {
+                    if (!hover2.matches(':hover')) {
+                        $(".box-popup-header-sub").removeClass("active");
+                        hover2.style.display = "none";
+                    }
+                }, 150);
+            });
+        })
+
+        hover2.addEventListener('mouseleave', function () {
+            $(".box-popup-header-sub").removeClass("active");
+            hover2.style.display = "none";
+        });
+
+        hover2.addEventListener('mouseover', function () {
+            clearTimeout(timeoutId);
+        });
+    }
+
+    $(document).ready(function () {
+        /*findDataColorHeader();
+        $("#main-menu-header-khcn").addClass("active");
+        $("#menu-header-khcn").addClass("active");
+
+        $(".box-top .box-khcc-new").hover(function (e) {
+            $(".box-top .box-khcc-new").removeClass("active");
+            $(".box-bottom .box-sub1-menu").removeClass("active");
+            $(this).addClass("active");
+            let nametag = $(this).attr('nametag');
+            $("#" + nametag).addClass("active");
+        });
+        let hoverKeyActive;
+        const hover1Element = document.querySelectorAll('.box-menu-sub');
+        const hover2 = document.querySelector('.box-popup-header-sub');
+        let timeoutId;
+        $(".box-bottom .box-sub1-menu .box-menu-sub").hover(function (e) {
+            $(".box-bottom .box-sub1-menu .box-menu-sub").removeClass("active");
+            $(".box-popup-header-sub .box-sub2-menu").removeClass("active");
+            $(this).toggleClass("active");
+            var id = $(this)[0].dataset.id;
+            hoverKeyActive = $("#" + id + ".box-sub2-menu").length;
+            if (hoverKeyActive == 0) {
+                hover2.style.display = "none";
+            } else {
+                hover2.style.display = "flex";
+            }
+            $("#" + id + ".box-sub2-menu").toggleClass("active");
+        });
+
+        hover1Element.forEach(hover1 => {
+            hover1.addEventListener('mouseover', function () {
+                clearTimeout(timeoutId);
+                $(".box-popup-header-sub").addClass("active");
+            });
+
+            hover1.addEventListener('mouseout', function () {
+                timeoutId = setTimeout(function () {
+                    if (!hover2.matches(':hover')) {
+                        $(".box-popup-header-sub").removeClass("active");
+                        hover2.style.display = "none";
+                    }
+                }, 150);
+            });
+        })
+
+        hover2.addEventListener('mouseleave', function () {
+            $(".box-popup-header-sub").removeClass("active");
+            hover2.style.display = "none";
+        });
+
+        hover2.addEventListener('mouseover', function () {
+            clearTimeout(timeoutId);
+        });*/
+
+        $("#btOpenMenuMb").click(function () {
+            $(".box-list-menu-mb").addClass("active");
+            $("#content").addClass("scroll-none");
+            $('#btnOpenMobile').addClass('d-none');
+            $('#btnCloseMobile').removeClass('d-none');
+            $('.box-bottom-menu-mobile').removeClass('d-none');
+            $('.main-header-2024-mb.view1').addClass('close');
+            $('.main-header-2024-mb.view2').addClass('active');
+        });
+
+        $("#btCloseMenuMb").click(function () {
+            $(".box-list-menu-mb").removeClass("active");
+            $("#content").removeClass("scroll-none");
+            $('#btnCloseMobile').addClass('d-none');
+            $('#btnOpenMobile').removeClass('d-none');
+            $('.box-detail-sub-1-mb').removeClass("active");
+            $('.box-menu-sub-mb').removeClass('active');
+            $('.box-sub2-menu-mb').removeClass('active');
+            $('#listMenuSub1Mb').removeClass('active');
+            $('#boxListDataMb').removeClass('active');
+            $('.box-bottom-menu-mobile').addClass('d-none');
+            $('.main-header-2024-mb.view1').removeClass('close');
+            $('.main-header-2024-mb.view2').removeClass('active');
+        });
+        $(".button-login").click(function () {
+            $(".box-login").toggleClass("active");
+        });
+
+        const pathnameUrl = window.location.href;
+        const checkURl = pathnameUrl.match("/eng");
+        if (checkURl == null) {
+            $('.langVN').addClass('selected');
+        } else if (checkURl != null) {
+            $('.langEN').addClass('selected');
+        }
+
+        scrollHeaderMenu('menu-header-khcn');
+        scrollHeaderMenu('menu-header-khdn');
+
+        
+    });
+
+    $(window).scroll(function () {
+        var currentScroll = $(window).scrollTop();
+        if (currentScroll >= 1) {
+            $('#header').addClass('header-fix');
+            $('#header').css({
+                position: 'fixed',
+                top: '0',
+                'z-index': '1000'
+            });
+        } else {
+            $('#header').removeClass('header-fix');
+            $('#header').css({
+                position: 'relative',
+                top: '0',
+                'z-index': '1000'
+            });
+        }
+    });
+
+    
+</script>
+
+<div>
+<div style="height: 50vh;position: relative;">
+    <div style="    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    position: absolute;
+    top: 50%;">
+        <h3>
+				KHÔNG TÌM THẤY TRANG
+        </h3>
+        <p>
+            Xin lỗi, rất tiếc trang bạn tìm kiếm đã bị xóa hoặc địa chỉ không đúng. Vui lòng quay lại Trang chủ.
+        </p>
+        <div style="    width: max-content;
+        padding: 15px;
+        margin: 30px auto;
+        background: linear-gradient(90.95deg, rgba(205, 176, 233, 0.4) 0.34%, rgba(0, 0, 0, 0) 99.18%), linear-gradient(0deg, var(--Color-Digital-color-Purple-purple-600, #5C278B), var(--Color-Digital-color-Purple-purple-600, #5C278B));
+        border-radius: 12px;
+        color: #FFF;"><a href="https://tpb.vn/ca-nhan"  style="color:#FFF">Quay về Trang chủ</a></div>
+    </div>
+</div>
+</div>
+<style>
+    #footerNew {
+        float: left;
+        width: 100%;
+    }
+
+    .box-footer {
+        width: 1170px;
+        margin: 0 auto;
+    }
+
+    .box-footer .box-list-icon {
+        padding: 50px 0;
+        position: relative;
+        border-bottom: 1px solid #AFAFAF;
+    }
+
+    .box-footer .box-list-icon .btn-toggle-footer {
+        background: linear-gradient(0deg, #863ACC, #863ACC),
+            linear-gradient(90deg, rgba(250, 0, 255, 0.3) 0%, rgba(250, 0, 255, 0) 100%);
+        width: 30px;
+        height: 25px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 8px 8px;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-footer .box-list-icon .btn-toggle-footer img {
+        width: 9px;
+        -webkit-transform: rotate(270deg);
+        -moz-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+    }
+
+    .box-footer .box-list-icon .btn-toggle-footer.active img {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+
+    .box-footer .box-list-icon .box-btn-icon-footer {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .box-footer .box-list-icon .box-btn-icon-footer a {
+        margin: 0 10px;
+    }
+
+    .box-footer .box-list-icon .box-btn-icon-footer a:last-child {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .box-footer .box-list-detail-footer {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 25px;
+    }
+
+    .box-footer .box-list-detail-footer.active {
+        display: none;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp {
+        width: 80%;
+        display: flex;
+        padding: 30px 0;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list {
+        width: 25%;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .box-master-title-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .masterTitle {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+        text-align: left;
+        color: #6F6F6F;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .list-content {
+        margin-top: 10px;
+        list-style: none;
+        padding-left: 0px;
+        position: relative;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .list-content li {
+        display: list-item;
+        float: none;
+        text-transform: none;
+        color: #652d89;
+        font-size: 14px;
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .list-content li a {
+        font-size: 16px;
+        padding: 0px;
+        padding-left: 0px;
+        color: #6F6F6F;
+        font-weight: 300;
+    }
+
+    .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .list-content li a:hover {
+        font-weight: 500;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer {
+        width: 20%;
+        padding: 30px 0;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer h3 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.2px;
+        text-align: right;
+        color: #6F6F6F;
+        margin: 0;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact {
+        display: grid;
+        justify-content: flex-end;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a {
+        font-size: 16px;
+        font-weight: 500;
+        max-width: 220px;
+        line-height: 19.2px;
+        padding: 10px 27px 10px 30px;
+        border-radius: 8000px;
+        background-image: linear-gradient(94.18deg, #FFAD94 -6.29%, #8A3FC6 200.03%);
+        background-origin: border-box;
+        border: 1px solid transparent;
+        box-shadow: inset 0 100vw white;
+        text-align: left;
+        margin: 10px 0;
+        color: #9756D0;
+        display: flex;
+        align-items: center;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a:hover {
+        background-image: radial-gradient(96.38% 3465.79% at 2.31% 0%, #FFAD94 0%, #8A3FC6 100%);
+        border: 1px solid radial-gradient(96.38% 3465.79% at 2.31% 0%, #FFAD94 0%, #8A3FC6 100%);
+        box-shadow: unset;
+        color: #FFF;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a img {
+        margin-right: 10px;
+    }
+
+    .box-ci-footer {
+        position: relative;
+        background: #502D6F;
+    }
+
+    .box-ci-footer .img-ci-footer {
+        position: absolute;
+        width: 100%;
+        top: -6px;
+        height: 12px;
+        background-position: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .box-ci-footer .img-ci-footer.mb {
+        display: none;
+    }
+
+    .box-ci-footer .box-content-ci-footer {
+        width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        padding: 30px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        color: #FFF;
+    }
+
+    .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.8px;
+        color: #FFF;
+        margin-left: 15px;
+    }
+
+    .img-icon-plus-footer,
+    .img-icon-minus-footer {
+        display: none;
+    }
+
+    .box-icon-plus-minus-contact {
+        display: none;
+    }
+
+    .icon-white {
+        display: none;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a:hover .icon-white {
+        display: block;
+    }
+
+    .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a:hover .icon-violet {
+        display: none;
+    }
+
+    @media (max-width: 1170px) {
+        .box-footer {
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .box-ci-footer .box-content-ci-footer {
+            width: 100%;
+            padding: 30px 20px;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer {
+            width: 25%;
+        }
+
+        .box-footer .box-list-detail-footer .box-danh-sach-sp {
+            width: 75%;
+        }
+    }
+    @media (max-width: 1024px) { 
+        .box-ci-footer .img-ci-footer {
+            background-position: 36%;
+        }
+    }
+    
+    @media (max-width: 820px) {
+
+        .box-footer {
+            width: 100%;
+            padding: 0;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer {
+            width: 100%;
+            padding-bottom: 30px;
+            padding-top: 10px;
+        }
+
+        .box-icon-plus-minus-contact {
+            display: block;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer .boxTitleContact {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact {
+            display: none;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact.active {
+            display: flex;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a {
+            background-image: unset;
+            border: unset;
+            box-shadow: unset;
+            padding: 10px 0;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer .list-btn-contact a:hover {
+            background-image: unset;
+            border: unset;
+            box-shadow: unset;
+            color: #9756D0;
+        }
+
+        .img-icon-minus-contact-footer,
+        .img-icon-plus-contact-footer.close {
+            display: none;
+        }
+
+        .img-icon-minus-contact-footer.open {
+            display: block;
+        }
+
+        .box-footer .box-list-icon {
+            padding: 30px 20px;
+        }
+
+        .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .masterTitle {
+            margin: 20px 0;
+        }
+
+        .box-footer .box-list-icon .btn-toggle-footer {
+            display: none;
+        }
+
+        .box-footer .box-list-detail-footer {
+            display: grid;
+            justify-content: unset;
+            padding: 0 20px;
+            margin-bottom: 0;
+        }
+
+        .box-footer .box-list-detail-footer .box-danh-sach-sp {
+            width: 100%;
+            display: grid;
+            padding-bottom: 0;
+        }
+
+        .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .list-content {
+            display: none;
+        }
+
+        .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list .list-content.active {
+            display: block;
+        }
+
+        .box-footer .box-list-detail-footer .box-dich-vu-footer h3 {
+            line-height: 38.2px;
+            margin: 0;
+        }
+
+        .img-icon-plus-footer {
+            display: block;
+        }
+
+        .img-icon-minus-footer.open {
+            display: block;
+        }
+
+        .img-icon-minus-footer.close {
+            display: none;
+        }
+
+        .box-footer .box-list-detail-footer .box-danh-sach-sp .box-detail-footer-list {
+            width: 100%;
+            border-bottom: 1px solid #F1F1F1;
+        }
+
+        .box-ci-footer .box-content-ci-footer {
+            width: 100%;
+            display: grid;
+            justify-content: unset;
+        }
+
+        .box-ci-footer .img-ci-footer {
+            background-position: 36%;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-logo-footer {
+            margin: 0 auto;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-logo-footer img {
+            width: 160.7px;
+            height: 34px;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer {
+            margin-top: 40px;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer {
+            flex-direction: column-reverse;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a {
+            margin-left: 40px;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a:first-child {
+            margin-left: 0;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a,
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer p {
+            font-weight: 300;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer p {
+            margin-top: 30px;
+        }
+    }
+
+    @media (max-width: 590px) {
+        .box-footer .box-list-icon .box-btn-icon-footer {
+            justify-content: space-between;
+        }
+
+        .box-ci-footer .img-ci-footer.mb {
+            display: block;
+        }
+
+        .box-ci-footer .img-ci-footer.pc {
+            display: none;
+        }
+
+        .box-ci-footer .box-content-ci-footer {
+            width: 100%;
+            padding: 45px 20px;
+        }
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a,
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer p {
+            font-weight: 200;
+        }
+    }
+
+    @media (max-width: 475px) {
+
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a,
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer p {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a {
+            margin-left: 20px;
+        }
+    }
+
+    @media (max-width: 320px) {
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a {
+            margin-left: 20px;
+            font-size: 12px;
+        }
+    }
+	@media (max-width: 315px) {
+        .box-ci-footer .box-content-ci-footer .box-text-link-ci-footer a {
+            margin-left: 15px;
+            font-size: 10px;
+        }
+		.box-ci-footer .box-content-ci-footer .box-text-link-ci-footer p {
+			font-size: 12px;
+		}
+    }
+</style>
+<div id="footerNew" class="containerNewHear">
+    <div class="box-footer">
+  <div class="box-list-icon">
+    <div class="btn-toggle-footer">
+      <img
+        src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/image-ldp-2in1/Vector-left.png">
+    </div>
+    <div class="box-btn-icon-footer">
+      <a href="https://www.facebook.com/TPBank/">
+        <img src="/wps/wcm/connect/0b739744-bae1-4fe4-aa07-2242ae1a6959/icon-facebook.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-0b739744-bae1-4fe4-aa07-2242ae1a6959-pcL3P3Y">
+      </a>
+      <a href="https://www.tiktok.com/@tpbank_official">
+        <img src="/wps/wcm/connect/1d1047fd-22be-4ab2-93ca-ef266d6e1cfe/icon-ticktok.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-1d1047fd-22be-4ab2-93ca-ef266d6e1cfe-pcL3P3Y">
+      </a>
+      <a href="https://zalo.me/3751452701953168788">
+        <img src="/wps/wcm/connect/1d13c588-b52d-480f-8a23-81fa9e82340d/icon-zalo.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-1d13c588-b52d-480f-8a23-81fa9e82340d-pcL3P3Y">
+      </a>
+      <a href="https://www.youtube.com/@TPBank">
+        <img src="/wps/wcm/connect/966b563a-ab0e-4899-8e16-2d6482371194/icon-youtube.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-966b563a-ab0e-4899-8e16-2d6482371194-pcL3P3Y">
+      </a>
+      <a href="https://www.instagram.com/tpbank/">
+        <img src="/wps/wcm/connect/2a3ab2a3-0087-406e-aa04-dc30bb31f23e/icon-insta.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-2a3ab2a3-0087-406e-aa04-dc30bb31f23e-pcL3P3Y">
+      </a>
+      <a href="https://www.linkedin.com/company/tpbank/">
+        <img src="/wps/wcm/connect/43ab46a2-9da4-4a6f-9394-215980f1cb70/icon-linkin.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-43ab46a2-9da4-4a6f-9394-215980f1cb70-pcL3P3Y">
+      </a>
+    </div>
+  </div>
+  <div class="box-list-detail-footer">
+    <div class="box-danh-sach-sp">
+      <div class="box-detail-footer-list" path="/tpbank_data/sa-website/manage-web/component-common/footer/ca-nhan/ca-nhan">
+<div class="box-master-title-footer">
+                <a class="masterTitle" href="https://tpb.vn/ca-nhan" >
+                    Cá nhân
+                </a>
+<div class="box-icon-plus-minus" data-id="ca-nhan">
+<img class="img-icon-plus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/plusFooter.png" >
+<img class="img-icon-minus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/minusFooter.png">
+</div>
+</div>
+                <ul class="list-content" id="footer-ca-nhan">
+                    
+                </ul>
+            </div>
+<div class="box-detail-footer-list" path="/tpbank_data/sa-website/manage-web/component-common/footer/doanh-nghiep/doanh-nghiep">
+<div class="box-master-title-footer">
+                <a class="masterTitle" href="https://tpb.vn/khach-hang-doanh-nghiep" >
+                    Doanh nghiệp
+                </a>
+<div class="box-icon-plus-minus" data-id="doanh-nghiep">
+<img class="img-icon-plus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/plusFooter.png" >
+<img class="img-icon-minus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/minusFooter.png">
+</div>
+</div>
+                <ul class="list-content" id="footer-doanh-nghiep">
+                    
+                </ul>
+            </div>
+<div class="box-detail-footer-list" path="/tpbank_data/sa-website/manage-web/component-common/footer/khach-hang-cao-cap/khach-hang-cao-cap">
+<div class="box-master-title-footer">
+                <a class="masterTitle" href="https://tpb.vn/khach-hang-cao-cap" >
+                    Khách hàng cao cấp
+                </a>
+<div class="box-icon-plus-minus" data-id="Khach-hang-cao-cap">
+<img class="img-icon-plus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/plusFooter.png" >
+<img class="img-icon-minus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/minusFooter.png">
+</div>
+</div>
+                <ul class="list-content" id="footer-Khach-hang-cao-cap">
+                    
+                </ul>
+            </div>
+<div class="box-detail-footer-list" path="/tpbank_data/sa-website/manage-web/component-common/footer/thong-tin-khac/thong-tin-khac">
+<div class="box-master-title-footer">
+                <a class="masterTitle" href="https://tpb.vn/ve-tpbank" >
+                    Thông tin khác
+                </a>
+<div class="box-icon-plus-minus" data-id="thong-tin-khac">
+<img class="img-icon-plus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/plusFooter.png" >
+<img class="img-icon-minus-footer" src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/minusFooter.png">
+</div>
+</div>
+                <ul class="list-content" id="footer-thong-tin-khac">
+                    
+                </ul>
+            </div>
+
+    </div>
+    <div class="box-dich-vu-footer">
+      <div class="boxTitleContact">
+        <h3>Dịch vụ khách hàng</h3>
+        <div class="box-icon-plus-minus-contact">
+          <img class="img-icon-plus-contact-footer"
+            src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/plusFooter.png">
+          <img class="img-icon-minus-contact-footer"
+            src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/imageNewHeader/minusFooter.png">
+        </div>
+      </div>
+      <div class="list-btn-contact">
+        <a href="tel:1900 58 58 85">
+          <img class="icon-violet" src="/wps/wcm/connect/4115a6a6-381b-4b84-8523-c02a5ce94f55/Call.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-4115a6a6-381b-4b84-8523-c02a5ce94f55-pcL3P3Y">
+<img class="icon-white" src="/wps/wcm/connect/dbffbbc7-1e34-47f0-82dd-5878ed231c4d/icon-phone-white.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-dbffbbc7-1e34-47f0-82dd-5878ed231c4d-pcL3P3Y">
+          1900 58 58 85
+        </a>
+        <a href="https://tpb.vn/tim-diem-giao-dich?iservice= 1">
+          <img class="icon-violet" src="/wps/wcm/connect/ab12ec62-9401-41d7-abc1-bbf48c73a757/map.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-ab12ec62-9401-41d7-abc1-bbf48c73a757-pcL3P3Y">
+<img class="icon-white" src="/wps/wcm/connect/540e2b76-77fd-4fc0-93ee-25d89c70d06c/icon-location-white.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-540e2b76-77fd-4fc0-93ee-25d89c70d06c-pcL3P3Y">
+          Điểm giao dịch
+        </a>
+        <a href="mailto:dichvu_khachhang@tpb.com.vn">
+          <img class="icon-violet" src="/wps/wcm/connect/41799abf-6839-4fbc-9950-72faa709fdfe/mail.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-41799abf-6839-4fbc-9950-72faa709fdfe-pcL3P3Y">
+<img class="icon-white" src="/wps/wcm/connect/e8b60fc2-c2a9-4ad2-91cb-d644fbe87b54/icon-contact-white.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-e8b60fc2-c2a9-4ad2-91cb-d644fbe87b54-pcL3P3Y">
+          Email
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <div class="box-ci-footer">
+        <div class="img-ci-footer pc"
+            style="background-image: url('/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/ci-tpb.png')">
+        </div>
+        <div class="img-ci-footer mb"
+            style="background-image: url('/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/ci-tpb-mb.png')">
+        </div>
+        <div class="box-content-ci-footer">
+            <div class="box-logo-footer">
+                <img src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/logo.png"
+                    class="footer_logo-image">
+            </div>
+            <div class="box-text-link-ci-footer">
+                <p>Bản quyền © 2024 thuộc về TPBank</p>
+                <div class="box-link-a-footer">
+                    <a href="/site-map">Sitemap</a>
+                    <a href="/quy-dinh-su-dung">Điều khoản sử dụng</a>
+                    <a href="/bao-mat-thong-tin-khach-hang">An toàn sử dụng</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src =
+                'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="meta-bot-vr">
+        <style>
+            #meta-bot-vr {
+                position: fixed;
+                right: 10px;
+                bottom: 125px;
+                z-index: 1000;
+            }
+
+            .thought {
+                display: none;
+                background-color: #fe9901;
+                padding: 20px;
+                border-radius: 30px;
+                width: 160px;
+                min-height: 40px;
+                margin: 20px;
+                position: absolute;
+                right: -17px;
+                top: -110px;
+                color: #FFFFFF;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                box-sizing: unset;
+            }
+
+            .thought a {
+                color: #FFFFFF;
+            }
+
+            p.thought:before {
+                content: ' ';
+                position: absolute;
+                width: 0;
+                height: 0;
+            }
+
+            p.thought:before {
+                right: 40px;
+                bottom: -16px;
+                border: 8px solid;
+                border-color: #fe9901 #fe9901 transparent transparent;
+            }
+
+            .btn-on-top {
+                display: none;
+            }
+
+            .hoverVR:hover~.thought {
+                display: block;
+            }
+
+            @media (max-width: 590px) {
+                .btn-on-top {
+                    display: block;
+                    position: fixed;
+                    right: 18px;
+                    bottom: 125px;
+                    z-index: 200;
+                }
+
+                #btnOnTop {
+                    background: #E9DBF5;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    display: block;
+                    height: 46px;
+                    width: 46px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 49px;
+                }
+
+                #btnOnTop .sz22 {
+                    font-size: 20px;
+                    font-weight: normal;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.25;
+                    letter-spacing: normal;
+                    text-align: left;
+                    color: #000;
+                    text-align: center;
+                }
+
+                #meta-bot-vr {
+                    bottom: 230px;
+                }
+            }
+
+            @media (max-width: 475px) {
+                #meta-bot-vr {
+                    bottom: 180px;
+                }
+            }
+
+            @media (max-width: 425px) {
+                #meta-bot-vr {
+                    width: 100%;
+                }
+
+                .thought {
+                    width: 40%;
+                }
+
+                #meta-bot-vr a {
+                    position: absolute;
+                    right: 0;
+                }
+                #meta-bot-vr {
+                    bottom: 230px;
+                }
+            }
+        </style>
+
+        <a href="https://meta.tpb.vn/"  class="hoverVR"><img
+                src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/TPmascot.png"
+                alt="metaVR" style="width: 65px; height: 60px;"></a>
+        <p id="thoughtChat" class="thought">
+            <a href="https://meta.tpb.vn/" >Triển lãm “Tiên phong hành trình SỐ”</a>
+        </p>
+    </div>
+    <div id="chat-bot-fb"></div>
+    <div class="btn-on-top">
+        <a id="btnOnTop"><i class="fa fa-angle-up sz22"></i></a>
+    </div>
+    <script>
+        /*Back To Top*/
+        $('#btnOnTop').click(function () {
+            $('html, body').stop().animate({
+                'scrollTop': 0
+            }, 1000, 'swing');
+        });
+
+        var url = window.location.href;
+        if (url.search("ban-dau-gia-tai-san") != -1) {
+            var html = `<div class="fb-customerchat" page_id="309417446580023" logged_in_greeting="Xin chào! Mình là Trợ lý ảo T’Aio của TPBank. Mình có thể giúp gì cho bạn?" logged_out_greeting="Xin chào! Mình là Trợ lý ảo T’Aio của TPBank. Mình có thể giúp gì cho bạn?" theme_color="#F58220">
+ </div>`;
+        } else {
+            var html = `<div class="fb-customerchat" page_id="309417446580023" logged_in_greeting="Xin chào! Mình là Trợ lý ảo T’Aio của TPBank. Mình có thể giúp gì cho bạn?" logged_out_greeting="Xin chào! Mình là Trợ lý ảo T’Aio của TPBank. Mình có thể giúp gì cho bạn?" theme_color="#F58220">`
+        }
+        $('#chat-bot-fb').html(html);
+        $('.stOverflowAuto').addClass('unset');
+
+        // function addClassthoughtChat() {
+        //     $("#thoughtChat").addClass("active");
+        // }
+        // setTimeout(addClassthoughtChat, 2000);
+
+        // function removeThoughtChat() {
+        //     $("#thoughtChat").removeClass("active");
+        // }
+
+        var pathFooter = '';
+        $(".box-danh-sach-sp .box-detail-footer-list").each(function () {
+            pathFooter = $(this).attr("path");
+            var idFooter = $(this)[0].children[1].id;
+            var fullPath = "/wps/wcm/connect" + pathFooter + "?source=library&srv=cmpnt&cmpntid=3e1c96b2-456b-4b71-8b7a-17b1c849a279";
+            $.ajax({
+                type: "GET",
+                url: fullPath,
+                //async: false,
+                success: function (text) {
+                    $('#' + idFooter).append(text);
+                }
+            });
+        });
+        const btnCloseFooter = document.querySelector('.btn-toggle-footer');
+        btnCloseFooter.addEventListener('click', () => {
+            const closeFooter = document.querySelector('.box-list-detail-footer');
+            closeFooter.classList.toggle('active');
+            btnCloseFooter.classList.toggle('active');
+        });
+
+        $(".box-icon-plus-minus").click(function () {
+            const id = $(this).data("id");
+            $('#footer-' + id).toggleClass('active');
+            $(this).find('.img-icon-plus-footer').toggleClass('close');
+            $(this).find('.img-icon-minus-footer').toggleClass('open');
+        });
+
+        $(".box-icon-plus-minus-contact").click(function () {
+            $('.list-btn-contact').toggleClass('active');
+            $(this).find('.img-icon-plus-contact-footer').toggleClass('close');
+            $(this).find('.img-icon-minus-contact-footer').toggleClass('open');
+        });
+
+    </script>
+</div>
+
+</div>
+
+                        
+                    
+                
+                
+            
+        
+    
+
+    
+        
+
+
+
+
+
+        
+
+
+
+
+
+
+
+    
+</div>
+</div> 
+</div></div><div class='component-container wpthemeLeft wpthemeCol wpthemeSecondaryContainer ibmDndColumn wpthemeCol6of12 wpthemeMedium id-Z7_69KAGH42N0S440QG0ISD8J3084' name='secondary' ></div></div>
+</div>
+		</div><!--end main content-->
+
+		<footer id="stFooter" aria-label="IBM Digital Experience Footer" role="contentinfo" style="display:none;">
+			<!-- Option 1: hard coded footer 
+			<ul>
+				<li><a href="http://www.ibm.com/websphere/portal/library" target="_blank">Documentation</a></li>
+				<li><a href="http://www.lotus.com/ldd/portalwiki.nsf/" target="_blank">Wiki</a></li>
+				<li><a href="http://www.lotus.com/ldd/portalwiki.nsf/xpViewCategories.xsp?lookupName=Video%20Gallery" target="_blank">Media Gallery</a></li>
+				<li><a href="http://www.ibm.com/websphere/developer/zones/portal/" target="_blank">WebSphere Portal Zone</a></li>
+			</ul>
+			-->
+			<!-- Option 2: content spot footer (displays pages under the hidden label ibm.portal.theme.simple.footer) -->
+			<!-- Option 3: WCM Content footer. This content spot points to a piece of content in WCM to display
+			<a rel="dynamic-content" href="dyn-cs:id:st_wcm_content?path=Web+Content/Articles/Sample+Article"></a>
+			 -->
+		</footer><!-- page footer -->
+	</div>
+
+	<!-- This is responsible for bootstrapping the configuration for the javascript framework. 
+        This is located here instead of the head section to improve client performance. -->
+	<div class="stComplementaryContent" id="wpthemeComplementaryContent" role="region" aria-labelledby="stComplementaryContentText">
+		<span class="stDisplayNone" id="stComplementaryContentText">Complementary Content</span> 
+		<script type="text/javascript" src="/wps/contenthandler/!ut/p/digest!iz67yqOQnqPda5Sovznj-g/mashup/ra:collection?themeID=ZJ_7G142101N8B2F0ANNE2FGE1OO7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1779265306901&amp;entry=wp_portal__0.0%3Aconfig_config_static"></script><script type="text/javascript">i$.merge({"ibmCfg":{"themeConfig":{"themeUniqueName":"custom.portal.theme.TPBThemev1","themeRootURI":"/wps/contenthandler/!ut/p/digest!iz67yqOQnqPda5Sovznj-g/dav/fs-type1/themes/custom.portal.theme.TPBThemev1","themeWebAppBaseURI":"/wps/defaultTheme85/themes/html/dynamicSpots","themeWebDAVBaseURI":"dav:fs-type1/themes/custom.portal.theme.TPBThemev1/","modulesWebAppBaseURI":"/wps/themeModules","commonResourcesRootURI":"/wps/contenthandler/!ut/p/digest!iz67yqOQnqPda5Sovznj-g/dav/fs-type1/common-resources","isRTL":false,"isPageRenderModeCSA":false,"portletOverridePageTitle":"Trang Lỗi | TPBank Digital","currentContentNodeOID":"Z6_69KAGH42N0S440QG0ISD8J30G1","loadingImage":"css/images/loading.gif","dndSourceDefinitions":[],"categorySources":[],"styleSources":[],"layoutSources":[]},"portalConfig":{"locale":"en","portalURI":"/wps/portal","contentHandlerURI":"/wps/contenthandler/!ut/p/digest!zRdceoElUCisYmVdd-dSfQ/","pocURI":"/wps/portal/!ut/p/z0/0wcA1NLTeQ!!/","isVirtualPortal":false,"canImpersonate":false,"themeRootURI":"/wps/defaultTheme85/themes/html/dynamicSpots","parentPageID":"Z6_7G142101NOSIC0AN3F6U5C0AP4","currentPageOID":"Z6_69KAGH42N0S440QG0ISD8J30G1","canAnonymousUserViewCurrentPage":true,"bootstrapState":"&lt;?xml version=&#034;1.0&#034; encoding=&#034;UTF-8&#034;?&gt;&lt;root xmlns=&#034;http://www.ibm.com/xmlns/prod/websphere/portal/v6.1/portal-state&#034;&gt;&lt;state type=&#034;navigational&#034;&gt;&lt;selection selection-node=&#034;Z6_69KAGH42N0S440QG0ISD8J30G1&#034;&gt;&lt;mapping src=&#034;Z6_7G142101NOSIC0AN3F6U5C0AP4&#034; dst=&#034;Z6_69KAGH42N0S440QG0ISD8J30G1&#034;/&gt;&lt;mapping src=&#034;Z6_000000000000000000000000A0&#034; dst=&#034;Z6_69KAGH42N0S440QG0ISD8J30G1&#034;/&gt;&lt;mapping src=&#034;Z6_69KAGH42N0S440QG0ISD8J30G1&#034; dst=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/selection&gt;&lt;expansions&gt;&lt;node id=&#034;Z6_7G142101NOSIC0AN3F6U5C0AP4&#034;/&gt;&lt;node id=&#034;Z6_000000000000000000000000A0&#034;/&gt;&lt;/expansions&gt;&lt;/state&gt;&lt;/root&gt;","isUserLoggedIn":false,"currentUser":"anonymous portal user","currentUserOID":"","aggregatedStyle":null,"isCurrentPageEditable":true,"wcmPageMetadata":{"contentRoot":null,"sharingScope":null},"projectUUID":null},"userName":""},"com_ibm_theme_capabilities":{"wp_dialog_draggable":"0.0","st_fixed_navbar":"0.0","wp_hiddenpages":"0.0","wp_simple_contextmenu_ext":"0.0","wp_simple_contextmenu_js":"0.0","wp_toolbar_sitepreview_menuactions":"0.0","st_navigation":"0.0","wp_portlet_css":"0.0","wp_theme_utils":"0.0","wp_client_selector":"0.0","wp_toolbar_menuactions":"0.0","wp_toolbar_host_view":"0.0","wp_hiddencontent":"0.0","wp_portal":"0.0","photon.dom":"1.0","wp_photon_dom":"0.0","wp_toolbar_sitepreview":"0.0","highContrast":"1.0","wp_theme_simple":"0.0","wp_status_bar":"0.0","wp_client_tracing":"0.0","modules":"0.1","hasBaseURL":"true","wp_draft_page_ribbon":"0.0","wp_state_page_modes":"0.0","wp_toolbar_common_actionbar":"0.0","wp_client_main":"0.0","st_layoutGrid":"0.0","wp_toolbar_viewframe_validator":"0.0","wp_high_contrast":"0.0","wp_skin_region":"8.5","wp_toolbar_actionbar":"0.0","simple-contextmenu":"1.1","wp_dialog_css":"0.0","wp_theme_menus":"0.0","st_svg":"0.0","st_notice":"0.0","wp_client_logging":"0.0","wp_state_page":"0.0","wp_toolbar_common":"0.0","wp_toolbar_projectmenu":"0.0","wp_dialog_main":"0.0","wp_simple_contextmenu_main":"0.0","wp_dyncs_simple":"0.0","wp_layout_windowstates":"0.0","wp_toolbar_moremenu":"0.0","wp_custom_page_style":"0.0","wp_toolbar_contextmenu":"0.0","wp_searchbar":"0.0","wp_client_ext":"0.0","wp_simple_contextmenu_css":"0.0","wp_toolbar85":"0.0","wp_modules":"0.0","toolbar":"8.5","st_compressed_navbar":"0.0","wp_dialog_util":"0.0","wp_oob_sample_styles":"0.0","wp_toolbar_utils":"0.0","a11y":"1.0","wp_a11y":"0.0","st_search":"0.0","wp_simple_contextmenu_templates":"0.0","wp_toolbar_logo":"0.0"},"com_ibm_device_class":[]});ibmCfg.portalConfig.bootstrapState=(ibmCfg.portalConfig.bootstrapState||"").replace(/&lt;/gm, '<').replace(/&gt;/gm, '>').replace(/&amp;/gm, '&').replace(/&#039;/gm, "'").replace(/&#034;/gm, '"');i$.merge({"ibmCfg":{"portalConfig":{"isShowHiddenPages":false}}});</script><script type="text/javascript" src="/wps/contenthandler/!ut/p/digest!L_negPqVWa2FDiru8UDKPw/mashup/ra:collection?themeID=ZJ_7G142101N8B2F0ANNE2FGE1OO7&amp;locale=en&amp;mime-type=text%2Fjavascript&amp;lm=1779265308548&amp;entry=st_compressed_navbar__0.0%3Aconfig_js&amp;entry=wp_dialog_main__0.0%3Aconfig_js&amp;entry=st_navigation__0.0%3Aconfig_js&amp;entry=wp_state_page_modes__0.0%3Aconfig_js&amp;entry=wp_toolbar_utils__0.0%3Aconfig_js&amp;entry=wp_simple_contextmenu_ext__0.0%3Aconfig_js&amp;entry=wp_simple_contextmenu_js__0.0%3Aconfig_js&amp;entry=wp_toolbar_actionbar__0.0%3Aconfig_js&amp;entry=wp_toolbar_menuactions__0.0%3Aconfig_js&amp;entry=wp_toolbar_sitepreview_menuactions__0.0%3Aconfig_js&amp;entry=st_svg__0.0%3Aconfig_js&amp;entry=st_fixed_navbar__0.0%3Aconfig_js&amp;entry=st_search__0.0%3Aconfig_js&amp;entry=wp_status_bar__0.0%3Aconfig_js&amp;entry=wp_high_contrast__0.0%3Aconfig_js&amp;entry=wp_toolbar_projectmenu__0.0%3Aconfig_js&amp;entry=wp_toolbar_contextmenu__0.0%3Aconfig_js&amp;entry=wp_toolbar_sitepreview__0.0%3Aconfig_js&amp;entry=wp_skin_region__0.0%3Aconfig_js"></script><span id="simpleMenuTemplate" class="wpthemeMenuLeft">
+    <div class="wpthemeMenuBorder">
+        <div class="wpthemeMenuNotchBorder"></div>
+        <!-- define the menu item template inside the "ul" element.  only "css-class", "description", and "title" are handled by the theme's sample javascript. -->
+        <ul class="wpthemeMenuDropDown wpthemeTemplateMenu" role="menu">
+            <li class="${css-class}" role="menuitem" tabindex="-1"><span class="wpthemeMenuText">${title}</span>${badge}</li>
+        </ul>
+    </div>
+    <!-- Template for loading -->
+    <div class="wpthemeMenuLoading wpthemeMenuLoadingText wpthemeTemplateLoading">${loading}</div>
+    <!-- Template for submenu -->
+    <div class="wpthemeAnchorSubmenu wpthemeTemplateSubmenu">
+        <div class="wpthemeMenuBorder wpthemeMenuSubmenu">
+            <ul id="${submenu-id}" class="wpthemeMenuDropDown" role="menu"><li role="menuitem" tabindex="-1"></li></ul>
+        </div>
+    </div>
+</span></div>
+	<script>
+	if (!("ontouchstart" in document)) {
+		document.body.className += ' stNoTouch';
+	}
+	</script>
+	<!-- Placed at the end of the document so the pages load faster -->
+    <script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/changeURL.js" defer></script>
+    <script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/ie-emulation-modes-warning.js"></script>
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/campaign.js"></script>
+	
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/owl.carousel.min.js"></script>
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/main.js"></script>
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/jquery.fancybox.min.js"></script>
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/jquery.flipster.min.js"></script>
+	<style type="text/css">
+		.block-tinvan .bx-viewport{
+			height: 195.6px !important;
+		}
+	</style>
+	<script>
+	$(document).ready(function(){
+		$('.slider').bxSlider({
+		auto: true,
+		mode: 'fade',
+                pause: '8000',
+                speed: '2000',
+		onSliderLoad: function () {
+				$("#slider").css("visibility", "visible");
+			}
+		});
+	});
+	$(document).ready(function(){
+		$("#gdhn").click(function(){
+			$(".home-category-head").css({"background-image": "url(/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/tab1.jpg)","background-position-y":"70%","background-position-x":"40%"});
+
+		});
+	});
+	$(document).ready(function(){
+		$("#ttd").click(function(){
+			$(".home-category-head").css({"background-image": "url(/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/tab2.png)","background-position-y":"69%","background-position-x":"40%"});
+
+		});
+	});
+	$(document).ready(function(){
+		$("#vmn").click(function(){
+			$(".home-category-head").css({"background-image": "url(/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/tab4.png)","background-position-y":"29%","background-position-x":"40%"});
+
+		});
+	});
+	$(document).ready(function(){
+		$("#vmot").click(function(){
+			$(".home-category-head").css({"background-image": "url(/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/tab3.png)","background-position-y":"29%","background-position-x":"40%"});
+
+		});
+	});
+	$(document).ready(function(){
+		$("#ntqm").click(function(){
+			$(".home-category-head").css({"background-image": "url(/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/images/tab5.png)","background-position-y":"29%","background-position-x":"40%"});
+
+		});
+	});
+	</script>
+	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+	<script src="/wps/contenthandler/dav/themelist/custom.portal.theme.TPBThemev1/custom/js/ie10-viewport-bug-workaround.js"></script>
+	
+
+	<!--13052021 Test embbed js from UAT -->
+	<!-- Global site tag (gtag.js) - Google Ads: 701241479 -->
+	<!-- Global site tag (gtag.js) - Google Ads: 701241479 -->
+	<!-- Global site tag (gtag.js) - Google Ads: 701241479 -->
+	<!--<script async src="https://www.googletagmanager.com/gtag/js?id=AW-701241479"></script>-->
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'AW-701241479');
+	</script>
+
+	<!-- Event snippet for Test remarketing page -->
+	<!-- Event snippet for Test remarketing page -->
+	<script>
+  	gtag('event', 'conversion', {
+      	'send_to': 'AW-701241479/QT2HCOe7zJICEIexsM4C',
+      	'value': 1.0,
+      	'currency': 'VND',
+      	'aw_remarketing_only': true
+  	});
+	</script>
+	<!--<script type="text/javascript" src="/CustomDojo185/dojo/dojo/dojo.js"></script> -->
+</body>
+</html>

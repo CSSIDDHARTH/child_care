@@ -107,7 +107,7 @@ export default function About() {
 
           {/* Key Benefits Column (Right Side) */}
           <div className="lg:col-span-6 flex flex-col justify-center">
-            <h3 className="text-2xl md:text-3xl font-display font-medium text-slate-900 tracking-tight mb-6">
+            <h3 className="text-2xl md:text-3xl font-display font-bold text-[#008DD2] tracking-tight mb-6">
               Our Core Commitments
             </h3>
             <p className="text-slate-600 mb-8 leading-relaxed text-sm md:text-base">
@@ -128,7 +128,7 @@ export default function About() {
                     <Check className="h-5 w-5 stroke-[3]" />
                   </div>
                   <div>
-                    <h4 className="text-lg font-serif font-bold text-slate-900 mb-1">
+                    <h4 className="text-lg font-serif font-bold text-[#73C043] mb-1">
                       {benefit.title}
                     </h4>
                     <p className="text-sm text-slate-500 leading-relaxed">

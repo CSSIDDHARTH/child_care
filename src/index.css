@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dancing+Script:wght@500;600;700&display=swap');
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('/fonts/ProximaSoft-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('/fonts/ProximaSoft-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Nunito", "Plus Jakarta Sans", sans-serif;
+  --font-display: "Proxima Soft", "Nunito", "Plus Jakarta Sans", sans-serif;
   --font-serif: "Plus Jakarta Sans", sans-serif;
   --font-handwriting: "Dancing Script", cursive;
-  
-  --color-brand-blue: #008ED6;
+
+  --color-brand-blue: #008DD2;
   --color-brand-blue-hover: #0073B0;
-  --color-brand-green: #72B124;
+  --color-brand-green: #73C043;
   --color-brand-green-hover: #5C8F1C;
   --color-brand-yellow: #F6C445;
   --color-brand-yellow-light: #fef8e7;
@@ -20,6 +36,28 @@
   --color-heading-lavender: #7C5CBF;
   --color-heading-sage: #4FA67A;
   --color-heading-amber: #D4870E;
+}
+
+/* ─── Global Heading Typography & Color Styles ─────────────────── */
+h1, h2, h3 {
+  font-family: "Proxima Soft", "Nunito", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+/* Default heading colors, allowing utility overrides like text-white/heading-gradient */
+h1:not([class*="text-"]),
+h2:not([class*="text-"]):not(.heading-gradient) {
+  color: #008DD2;
+}
+
+h3:not([class*="text-"]):not(.heading-gradient) {
+  color: #73C043;
+}
+
+/* ─── Quote & Testimonial Styling ───────────────────────────── */
+.testimonial-text {
+  font-family: "Proxima Soft", "Nunito", sans-serif !important;
+  font-weight: 700 !important;
 }
 
 /* Custom styles for smooth scrolling and clean focus */
@@ -37,24 +75,38 @@ body {
 /* ─── Colorful Heading Utilities ────────────────────────────────── */
 
 .heading-gradient {
-  background: linear-gradient(120deg, #E27B58 0%, #8A64D6 50%, #20A499 100%);
+  background: linear-gradient(120deg, #008DD2 0%, #73C043 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 
 /* Teal – used for label spans / eyebrow text */
-.text-heading-teal  { color: var(--color-heading-teal); }
-.text-heading-coral { color: var(--color-heading-coral); }
-.text-heading-lavender { color: var(--color-heading-lavender); }
-.text-heading-sage  { color: var(--color-heading-sage); }
-.text-heading-amber { color: var(--color-heading-amber); }
+.text-heading-teal {
+  color: var(--color-heading-teal);
+}
+
+.text-heading-coral {
+  color: var(--color-heading-coral);
+}
+
+.text-heading-lavender {
+  color: var(--color-heading-lavender);
+}
+
+.text-heading-sage {
+  color: var(--color-heading-sage);
+}
+
+.text-heading-amber {
+  color: var(--color-heading-amber);
+}
 
 /* Soft color for section labels throughout the site */
 .label-colorful {
-  background: linear-gradient(90deg, #0EA5B0, #7C5CBF);
+  background: linear-gradient(90deg, #008DD2, #73C043);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -66,8 +118,15 @@ body {
 
 /* Animation classes */
 @keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-fade-in {
@@ -78,23 +137,28 @@ body {
 
 /* Shimmer keyframes */
 @keyframes shimmer-quote {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* Base quote style — elegant gradient text on light backgrounds */
 .quote-handwriting {
-  font-family: var(--font-handwriting);
-  font-weight: 600;
-  background: linear-gradient(
-    120deg,
-    #7C5CBF 0%,
-    #0EA5B0 30%,
-    #4FA67A 55%,
-    #E8745A 80%,
-    #7C5CBF 100%
-  );
+  font-family: "Proxima Soft", "Nunito", sans-serif !important;
+  font-weight: 700 !important;
+  background: linear-gradient(120deg,
+      #008DD2 0%,
+      #73C043 35%,
+      #008DD2 70%,
+      #73C043 100%);
   background-size: 250% 250%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -105,15 +169,13 @@ body {
 
 /* Dark-background variant — brighter, golden shimmer */
 .quote-handwriting-dark {
-  font-family: var(--font-handwriting);
-  font-weight: 600;
-  background: linear-gradient(
-    120deg,
-    #F6C445 0%,
-    #72B124 30%,
-    #008ED6 60%,
-    #F6C445 100%
-  );
+  font-family: "Proxima Soft", "Nunito", sans-serif !important;
+  font-weight: 700 !important;
+  background: linear-gradient(120deg,
+      #73C043 0%,
+      #008DD2 35%,
+      #73C043 70%,
+      #008DD2 100%);
   background-size: 250% 250%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
