@@ -1,18 +1,22 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { ShieldCheck, ClipboardList, Users, Award, Star, ChevronLeft, ChevronRight, Quote, ExternalLink } from "lucide-react";
+import { ShieldCheck, ClipboardList, Users, Award, Star, ChevronLeft, ChevronRight, Quote, ExternalLink, Building, Brain, GraduationCap, Coins } from "lucide-react";
 import { FEATURES } from "../data";
 import { motion, AnimatePresence } from "motion/react";
 
 const getFeatureIcon = (id: string) => {
   switch (id) {
-    case "safe-env":
-      return <ShieldCheck className="h-7 w-7 text-brand-green" />;
-    case "indiv-plans":
-      return <ClipboardList className="h-7 w-7 text-brand-blue" />;
-    case "exp-team":
-      return <Users className="h-7 w-7 text-brand-blue" />;
-    case "real-results":
-      return <Award className="h-7 w-7 text-brand-green" />;
+    case "expert-team":
+      return <Users className="h-7 w-7 text-[#008DD2]" />;
+    case "advanced-infra":
+      return <Building className="h-7 w-7 text-[#73C043]" />;
+    case "psychological-assessments":
+      return <Brain className="h-7 w-7 text-[#008DD2]" />;
+    case "science-results":
+      return <Award className="h-7 w-7 text-[#73C043]" />;
+    case "parent-training":
+      return <GraduationCap className="h-7 w-7 text-[#008DD2]" />;
+    case "cost-effective":
+      return <Coins className="h-7 w-7 text-[#73C043]" />;
     default:
       return <ShieldCheck className="h-7 w-7 text-brand-blue" />;
   }
@@ -20,12 +24,14 @@ const getFeatureIcon = (id: string) => {
 
 const getFeatureIconBg = (id: string) => {
   switch (id) {
-    case "safe-env":
-    case "real-results":
-      return "bg-brand-green/10 ring-brand-green/20";
-    case "indiv-plans":
-    case "exp-team":
-      return "bg-brand-blue/10 ring-brand-blue/20";
+    case "advanced-infra":
+    case "science-results":
+    case "cost-effective":
+      return "bg-[#73C043]/10 ring-[#73C043]/20";
+    case "expert-team":
+    case "psychological-assessments":
+    case "parent-training":
+      return "bg-[#008DD2]/10 ring-[#008DD2]/20";
     default:
       return "bg-slate-100 ring-slate-200";
   }
@@ -327,32 +333,121 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        {/* Feature Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
-          {FEATURES.map((feature, index) => (
-            <motion.div
-              key={feature.id}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white rounded-lg p-6 md:p-8 border border-stone-200/60 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-start text-left"
-            >
-              {/* Premium Icon Frame with ring detail */}
-              <div className={`p-4 rounded-lg ring-4 mb-6 flex-shrink-0 flex items-center justify-center ${getFeatureIconBg(feature.id)}`}>
-                {getFeatureIcon(feature.id)}
-              </div>
-
-              <h3 className="text-lg md:text-xl font-display font-bold text-[#008DD2] mb-3 leading-snug">
-                {feature.title}
-              </h3>
-
-              <p className="text-sm text-slate-500 leading-relaxed font-medium">
-                {feature.description}
-              </p>
-            </motion.div>
-          ))}
-        </div>
+        {/* Comparative Analysis Table */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6 }}
+          className="mt-12 overflow-x-auto rounded-3xl border border-stone-200/80 bg-white shadow-xl max-w-5xl mx-auto"
+        >
+          <table className="w-full text-left border-collapse">
+            <thead>
+              <tr className="bg-slate-50 border-b border-stone-200/80">
+                <th className="py-6 px-6 font-display font-bold text-slate-800 text-sm md:text-base uppercase tracking-wider">Comparison Area</th>
+                <th className="py-6 px-6 font-display font-bold text-[#008DD2] text-base md:text-lg bg-sky-50/40 border-x border-stone-200/80 text-center md:text-left">
+                  <div className="flex items-center justify-center md:justify-start space-x-2">
+                    <span className="w-2.5 h-2.5 rounded-full bg-[#73C043]"></span>
+                    <span>Our Centre</span>
+                  </div>
+                </th>
+                <th className="py-6 px-6 font-display font-bold text-slate-500 text-sm md:text-base text-center md:text-left">Standard Clinics</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-stone-150">
+              <tr className="hover:bg-slate-50/40 transition-colors">
+                <td className="py-5 px-6 font-display font-bold text-slate-900 text-sm md:text-base">Clinical Team</td>
+                <td className="py-5 px-6 bg-sky-50/20 border-x border-stone-200/80 font-normal text-slate-700 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">✅</span>
+                    <span className="font-semibold text-slate-900">Expert multi-disciplinary team</span>
+                  </div>
+                </td>
+                <td className="py-5 px-6 font-normal text-slate-500 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">❌</span>
+                    <span>Rotating or inexperienced staff</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="hover:bg-slate-50/40 transition-colors">
+                <td className="py-5 px-6 font-display font-bold text-slate-900 text-sm md:text-base">Infrastructure</td>
+                <td className="py-5 px-6 bg-sky-50/20 border-x border-stone-200/80 font-normal text-slate-700 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">✅</span>
+                    <span className="font-semibold text-slate-900">Advanced infrastructure & tools</span>
+                  </div>
+                </td>
+                <td className="py-5 px-6 font-normal text-slate-500 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">❌</span>
+                    <span>Outdated, basic clinical facilities</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="hover:bg-slate-50/40 transition-colors">
+                <td className="py-5 px-6 font-display font-bold text-slate-900 text-sm md:text-base">Waiting Times</td>
+                <td className="py-5 px-6 bg-sky-50/20 border-x border-stone-200/80 font-normal text-slate-700 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">✅</span>
+                    <span className="font-semibold text-slate-900">Timely psychological assessments</span>
+                  </div>
+                </td>
+                <td className="py-5 px-6 font-normal text-slate-500 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">❌</span>
+                    <span>Long waitlists and delayed evaluations</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="hover:bg-slate-50/40 transition-colors">
+                <td className="py-5 px-6 font-display font-bold text-slate-900 text-sm md:text-base">Clinical Focus</td>
+                <td className="py-5 px-6 bg-sky-50/20 border-x border-stone-200/80 font-normal text-slate-700 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">✅</span>
+                    <span className="font-semibold text-slate-900">Scientifically proven & result-oriented</span>
+                  </div>
+                </td>
+                <td className="py-5 px-6 font-normal text-slate-500 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">❌</span>
+                    <span>Generic, unmeasured approaches</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="hover:bg-slate-50/40 transition-colors">
+                <td className="py-5 px-6 font-display font-bold text-slate-900 text-sm md:text-base">Family Support</td>
+                <td className="py-5 px-6 bg-sky-50/20 border-x border-stone-200/80 font-normal text-slate-700 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">✅</span>
+                    <span className="font-semibold text-slate-900">Parent training and guidance</span>
+                  </div>
+                </td>
+                <td className="py-5 px-6 font-normal text-slate-500 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">❌</span>
+                    <span>Minimal parent involvement</span>
+                  </div>
+                </td>
+              </tr>
+              <tr className="hover:bg-slate-50/40 transition-colors">
+                <td className="py-5 px-6 font-display font-bold text-slate-900 text-sm md:text-base">Care Value</td>
+                <td className="py-5 px-6 bg-sky-50/20 border-x border-stone-200/80 font-normal text-slate-700 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">✅</span>
+                    <span className="font-semibold text-slate-900">Cost-effective care</span>
+                  </div>
+                </td>
+                <td className="py-5 px-6 font-normal text-slate-500 text-sm md:text-base">
+                  <div className="flex items-start space-x-3">
+                    <span className="text-xl leading-none select-none">❌</span>
+                    <span>High out-of-pocket costs and hidden fees</span>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </motion.div>
 
         {/* High-trust mini info bar */}
         <motion.div

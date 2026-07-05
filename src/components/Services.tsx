@@ -59,19 +59,15 @@ const getCardBackground = (id: string) => {
 const getCardBorder = (id: string) => {
   switch (id) {
     case "speech-therapy":
-      return "border border-indigo-100/60";
-    case "occupational-therapy":
-      return "border border-teal-100/60";
     case "special-education":
-      return "border border-orange-100/60";
-    case "behaviour-therapy":
-      return "border border-pink-100/60";
     case "developmental-assessment":
-      return "border border-purple-100/60";
+      return "border-2 border-[#008DD2]/20 hover:border-[#008DD2]/80 shadow-[0_12px_30px_rgba(0,141,210,0.07)] hover:shadow-[0_22px_45px_rgba(0,141,210,0.18)]";
+    case "occupational-therapy":
+    case "behaviour-therapy":
     case "parent-counseling":
-      return "border border-sky-100/60";
+      return "border-2 border-[#73C043]/20 hover:border-[#73C043]/80 shadow-[0_12px_30px_rgba(115,192,67,0.07)] hover:shadow-[0_22px_45px_rgba(115,192,67,0.18)]";
     default:
-      return "border border-stone-200/60";
+      return "border-2 border-stone-200/60 shadow-[0_12px_30px_rgba(0,0,0,0.02)]";
   }
 };
 
@@ -104,7 +100,7 @@ export default function Services() {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.7, delay: index * 0.1, ease: "easeOut" }}
               whileHover={{ y: -8 }}
-              className={`${getCardBackground(service.id)} ${getCardBorder(service.id)} rounded-3xl shadow-[0_10px_30px_rgba(0,0,0,0.02)] hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)] transition-all duration-500 overflow-hidden group flex flex-col`}
+              className={`${getCardBackground(service.id)} ${getCardBorder(service.id)} rounded-3xl transition-all duration-500 overflow-hidden group flex flex-col`}
             >
               <div>
                 {/* Image Header within Rounded Tile container */}

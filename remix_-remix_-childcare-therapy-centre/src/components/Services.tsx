@@ -31,6 +31,34 @@ const getBadgeStyle = (id: string) => {
   }
 };
 
+const getCardBackground = (id: string) => {
+  switch (id) {
+    case "speech-therapy":
+      return "bg-gradient-to-br from-blue-50 to-indigo-100/50";
+    case "occupational-therapy":
+      return "bg-gradient-to-br from-emerald-50 to-teal-100/50";
+    case "special-education":
+      return "bg-gradient-to-br from-amber-50 to-orange-100/50";
+    case "behaviour-therapy":
+      return "bg-gradient-to-br from-rose-50 to-pink-100/50";
+    default:
+      return "bg-white";
+  }
+};
+
+const getCardBorder = (id: string) => {
+  switch (id) {
+    case "speech-therapy":
+    case "special-education":
+      return "border-2 border-[#008DD2]/20 hover:border-[#008DD2]/80 shadow-[0_12px_30px_rgba(0,141,210,0.07)] hover:shadow-[0_22px_45px_rgba(0,141,210,0.18)]";
+    case "occupational-therapy":
+    case "behaviour-therapy":
+      return "border-2 border-[#73C043]/20 hover:border-[#73C043]/80 shadow-[0_12px_30px_rgba(115,192,67,0.07)] hover:shadow-[0_22px_45px_rgba(115,192,67,0.18)]";
+    default:
+      return "border-2 border-stone-200/60 shadow-[0_12px_30px_rgba(0,0,0,0.02)]";
+  }
+};
+
 export default function Services() {
   const handleScrollTo = () => {
     const element = document.querySelector("#consultation");
@@ -49,7 +77,7 @@ export default function Services() {
   };
 
   return (
-    <section id="services" className="py-20 md:py-28 bg-white border-y border-stone-200/60">
+    <section id="services" className="py-20 md:py-28 bg-[#F7FBFE] border-y border-slate-100">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -75,7 +103,7 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-100px" }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-[#FCFBF7] rounded-xl shadow-sm border border-stone-200/60 hover:shadow-md hover:border-brand-blue/30 transition-all duration-300 overflow-hidden group flex flex-col justify-between"
+              className={`${getCardBackground(service.id)} ${getCardBorder(service.id)} rounded-3xl transition-all duration-500 overflow-hidden group flex flex-col justify-between`}
             >
               <div>
                 {/* Image Header with Subtle Hover Ken Burns zoom */}

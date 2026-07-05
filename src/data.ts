@@ -2,10 +2,10 @@ import { Service, Feature, Benefit, ContactInfo } from "./types";
 
 export const SERVICES: Service[] = [
   {
-    id: "speech-therapy",
-    title: "Speech Therapy",
-    description: "Improving communication, speech clarity, language and social skills.",
-    imageUrl: "/speech%20therapy.png"
+    id: "behaviour-therapy",
+    title: "Behavior Therapy / ABA Therapy",
+    description: "Positive behaviour support, emotion regulation and social skills for a better tomorrow.",
+    imageUrl: "/behaviour%20therapy.png"
   },
   {
     id: "occupational-therapy",
@@ -20,16 +20,16 @@ export const SERVICES: Service[] = [
     imageUrl: "/special%20education.png"
   },
   {
-    id: "behaviour-therapy",
-    title: "Behavior Therapy / ABA Therapy",
-    description: "Positive behaviour support, emotion regulation and social skills for a better tomorrow.",
-    imageUrl: "/behaviour%20therapy.png"
-  },
-  {
     id: "developmental-assessment",
     title: "Developmental Assessment & Psychological Testing",
     description: "Our standardized, child-friendly evaluations identify cognitive, emotional, and social development milestones. We provide clear, diagnostic clarity and actionable clinical insights to guide your child's therapeutic path. Our supportive environment ensures children feel comfortable and safe throughout the assessment process.",
     imageUrl: "/development%20assesment.png"
+  },
+  {
+    id: "speech-therapy",
+    title: "Speech Therapy",
+    description: "Improving communication, speech clarity, language and social skills.",
+    imageUrl: "/speech%20therapy.png"
   },
   {
     id: "parent-counseling",
@@ -41,24 +41,34 @@ export const SERVICES: Service[] = [
 
 export const FEATURES: Feature[] = [
   {
-    id: "safe-env",
-    title: "Safe & Child-Friendly Environment",
-    description: "Our physical space is meticulously designed to be warm, clinically clean, safe, and highly stimulating for sensory and physical needs."
+    id: "expert-team",
+    title: "Expert Team",
+    description: "Our multidisciplinary practitioners possess specialized credentials and extensive clinical experience in pediatric therapy and behavioral support."
   },
   {
-    id: "indiv-plans",
-    title: "Individualized Care Plans",
-    description: "Every child receives a bespoke therapy plan based on structured clinical evaluations to match their unique development pace."
+    id: "advanced-infra",
+    title: "Advanced Infrastructure",
+    description: "State-of-the-art sensory gyms, play therapy rooms, and modern clinical tools designed for children's safety and stimulation."
   },
   {
-    id: "exp-team",
-    title: "Experienced & Compassionate Team",
-    description: "Our healthcare practitioners possess deep clinical expertise and a compassionate approach, ensuring high-quality evidence-based support."
+    id: "psychological-assessments",
+    title: "Timely Psychological Assessments",
+    description: "Standardized evaluations (cognitive, behavioral, and developmental scales) with minimal wait times to initiate support early."
   },
   {
-    id: "real-results",
-    title: "Focused on Real Results",
-    description: "We set measurable developmental goals and partner with parents to ensure continuous improvement and meaningful progress."
+    id: "science-results",
+    title: "Scientifically Proven & Result-Oriented",
+    description: "We deploy evidence-based interventions with structured progress tracking and measurable developmental goals."
+  },
+  {
+    id: "parent-training",
+    title: "Parent Training & Guidance",
+    description: "Active caregiver coaching and training programs to extend therapeutic strategies into daily home routines for lasting outcomes."
+  },
+  {
+    id: "cost-effective",
+    title: "Cost-Effective",
+    description: "High-quality clinical therapies and diagnostic assessments delivered at affordable rates, ensuring accessible healthcare for every family."
   }
 ];
 
