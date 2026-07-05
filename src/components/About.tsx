@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function About() {
   return (
-    <section id="about" className="py-20 md:py-28 bg-gradient-to-b from-[#FCFBF7] to-[#F1F8F6] overflow-hidden">
+    <section id="about" className="py-20 md:py-28 bg-gradient-to-br from-[#FFE0C8] via-[#FDF6EF] to-[#C5EDDA] overflow-hidden">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* About Info & Parent Org Header */}

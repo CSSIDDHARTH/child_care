@@ -310,7 +310,7 @@ function TestimonialsSection() {
 
 export default function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="py-20 md:py-28 bg-gradient-to-b from-[#FCFBF7] to-[#FEFBF0] overflow-hidden">
+    <section id="why-choose-us" className="py-20 md:py-28 bg-gradient-to-br from-[#FFF8E6] via-[#FFFBF0] to-[#FFF5E0] overflow-hidden">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Section Header */}

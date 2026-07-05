@@ -183,3 +183,10 @@ body {
   animation: shimmer-quote 5s ease infinite;
   line-height: 1.45;
 }
+
+.section-bg-image {
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -77,7 +77,7 @@ const getCardBorder = (id: string) => {
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-28 bg-gradient-to-b from-slate-950 via-[#0F172A] to-slate-950 border-y border-slate-900/60">
+    <section id="services" className="py-20 md:py-28 bg-gradient-to-b from-[#B8DFF5] to-[#CCE9F8] border-y border-[#A0D4F0]/50">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
@@ -89,7 +89,7 @@ export default function Services() {
             Our Comprehensive Therapeutic & Assessment Services
           </h2>
           <div className="mt-4 w-12 h-0.5 bg-brand-blue mx-auto"></div>
-          <p className="mt-4 text-base text-slate-300 max-w-2xl mx-auto leading-relaxed font-light">
+          <p className="mt-4 text-base text-slate-500 max-w-2xl mx-auto leading-relaxed font-light">
             We offer structured, individualized support across six key clinical areas. Every program is evidence-based and customized.
           </p>
         </div>
