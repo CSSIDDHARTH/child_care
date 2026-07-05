@@ -77,7 +77,7 @@ const getCardBorder = (id: string) => {
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-28 bg-gradient-to-b from-[#B8DFF5] to-[#CCE9F8] border-y border-[#A0D4F0]/50">
+    <section id="services" className="py-20 md:py-28 bg-gradient-to-b from-[#E4F3FC] to-[#EEF8FD] border-y border-[#C8E5F5]/60">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
