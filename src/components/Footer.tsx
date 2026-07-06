@@ -103,7 +103,12 @@ export default function Footer() {
           
           {/* Brand/About Block */}
           <div className="md:col-span-5 text-left space-y-4 dark">
-            <Logo variant="horizontal" subtextColor="#94a3b8" />
+            <div>
+              <Logo variant="horizontal" subtextColor="#94a3b8" />
+              <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mt-2 ml-1">
+                An unit of Changing Minds
+              </p>
+            </div>
 
             <p className="text-sm text-slate-400 leading-relaxed max-w-sm font-serif">
               We provide professional and evidence-based therapeutic care, bringing together speech, sensory, motor, academic, and behavioural sciences to nurture every child's potential.

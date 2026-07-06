@@ -63,7 +63,7 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="font-display font-medium text-[13px] tracking-[0.02em] text-[#1a1a1a] hover:text-brand-blue transition-colors relative py-2 group"
+                className="font-display font-bold text-[13px] tracking-[0.02em] text-[#1a1a1a] hover:text-brand-blue transition-colors relative py-2 group"
               >
                 {item.label}
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-blue transition-all duration-300 group-hover:w-full"></span>
@@ -72,7 +72,7 @@ export default function Header() {
             <a
               href="#consultation"
               onClick={(e) => handleNavClick(e, "#consultation")}
-              className="bg-brand-blue text-white px-6 py-2.5 rounded-full font-display font-medium text-[13px] tracking-[0.02em] hover:bg-brand-blue-hover transition-all shadow-sm hover:shadow hover:-translate-y-0.5 duration-200"
+              className="bg-brand-blue text-white px-6 py-2.5 rounded-full font-display font-bold text-[13px] tracking-[0.02em] hover:bg-brand-blue-hover transition-all shadow-sm hover:shadow hover:-translate-y-0.5 duration-200"
             >
               Book Consultation
             </a>
@@ -107,7 +107,7 @@ export default function Header() {
                 key={item.label}
                 href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
-                className="block px-4 py-3 rounded-xl font-display font-medium text-[15px] tracking-[0.02em] text-slate-700 hover:bg-slate-50/50 hover:text-brand-blue transition-all"
+                className="block px-4 py-3 rounded-xl font-display font-bold text-[15px] tracking-[0.02em] text-slate-700 hover:bg-slate-50/50 hover:text-brand-blue transition-all"
               >
                 {item.label}
               </a>
@@ -116,7 +116,7 @@ export default function Header() {
               <a
                 href="#consultation"
                 onClick={(e) => handleNavClick(e, "#consultation")}
-                className="block w-full text-center bg-brand-blue text-white py-3 rounded-full font-display font-medium text-[15px] tracking-[0.02em] hover:bg-brand-blue-hover transition-colors shadow-sm"
+                className="block w-full text-center bg-brand-blue text-white py-3 rounded-full font-display font-bold text-[15px] tracking-[0.02em] hover:bg-brand-blue-hover transition-colors shadow-sm"
               >
                 Book Consultation
               </a>

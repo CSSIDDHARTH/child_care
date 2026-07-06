@@ -1,7 +1,18 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Phone } from "lucide-react";
+import { CONTACT_INFO } from "../data";
 import heroBg from "../assets/hero-bg.png";
+
+const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    {...props}
+  >
+    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.717-1.456L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.863-9.864.001-2.63-1.023-5.102-2.884-6.964-1.862-1.862-4.335-2.887-6.97-2.888-5.442 0-9.866 4.42-9.869 9.866-.001 1.773.479 3.502 1.391 5.037L1.96 21.047l5.22-1.369zm10.934-7.82c-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.174.2-.298.3-.496.099-.198.05-.371-.025-.521-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/>
+  </svg>
+);
 
 export default function Hero() {
   const handleScrollTo = (id: string) => {
@@ -83,6 +94,34 @@ export default function Hero() {
             >
               Our Services
             </button>
+          </motion.div>
+
+          {/* Quick Contact Options */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.52 }}
+            className="mt-6 flex flex-wrap items-center gap-3 w-full"
+          >
+            <span className="text-xs font-display font-bold text-slate-500 uppercase tracking-wider block w-full sm:w-auto sm:mr-1">
+              Quick Connect:
+            </span>
+            <a
+              href={`tel:${CONTACT_INFO.phone}`}
+              className="inline-flex items-center justify-center space-x-2 bg-brand-blue/10 hover:bg-brand-blue text-brand-blue hover:text-white px-4 py-2.5 rounded-full font-display font-semibold text-xs transition-all duration-200 border border-brand-blue/20 hover:border-brand-blue w-full sm:w-auto cursor-pointer"
+            >
+              <Phone className="h-3.5 w-3.5" />
+              <span>Call +91 {CONTACT_INFO.phone}</span>
+            </a>
+            <a
+              href={`https://wa.me/91${CONTACT_INFO.phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center space-x-2 bg-[#25D366]/10 hover:bg-[#25D366] text-[#128C7E] hover:text-white px-4 py-2.5 rounded-full font-display font-semibold text-xs transition-all duration-200 border border-[#25D366]/20 hover:border-[#25D366] w-full sm:w-auto cursor-pointer"
+            >
+              <WhatsAppIcon className="h-3.5 w-3.5" />
+              <span>WhatsApp Chat</span>
+            </a>
           </motion.div>
 
           {/* Micro-trust indicators */}
