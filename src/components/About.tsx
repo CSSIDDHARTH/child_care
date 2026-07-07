@@ -146,6 +146,58 @@ export default function About() {
           </div>
 
         </div>
+
+        {/* Managing Director Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.6, delay: 0.2 }}
+          className="mt-20 md:mt-28"
+        >
+          <div className="text-center mb-10">
+            <span className="text-xs font-bold uppercase tracking-widest text-brand-green">Leadership</span>
+            <h3 className="text-2xl md:text-3xl font-display font-bold tracking-tight mt-2 heading-gradient">
+              Meet Our Managing Director
+            </h3>
+          </div>
+
+          <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl border border-stone-100 p-10 flex flex-col items-center text-center">
+            {/* Photo — tile style, contained, centred */}
+            <div className="w-52 h-52 rounded-2xl overflow-hidden shadow-md border border-stone-200 mb-7 flex-shrink-0">
+              <img
+                src="/managing director.jpeg"
+                alt="Managing Director of Childcare Therapy Centre"
+                className="w-full h-full object-cover object-center"
+              />
+            </div>
+
+            {/* Info — below the photo tile */}
+            {/* Badge */}
+            <div className="inline-flex items-center space-x-2 bg-brand-green/10 text-brand-green text-xs font-semibold px-3 py-1 rounded-full mb-4">
+              <Award className="h-3.5 w-3.5" />
+              <span>Managing Director</span>
+            </div>
+            {/* Director Name */}
+            <h5 className="text-lg font-medium text-slate-700 mb-2">Mrs Surbhi Jaiswal</h5>
+            {/* Organisation */}
+            <h4 className="text-xl font-display font-bold text-slate-800 mb-3">
+              Childcare Therapy Centre
+            </h4>
+            <p className="text-sm text-slate-500 leading-relaxed max-w-lg">
+              Our Managing Director leads Childcare Therapy Centre with a deep commitment to providing world-class rehabilitative care for children. With a focus on evidence-based therapies and compassionate leadership, they ensure that every child receives the individualised attention they deserve to reach their fullest potential.
+            </p>
+            <div className="mt-6 pt-6 border-t border-stone-100 w-full flex items-center justify-center space-x-3">
+              <div className="bg-brand-blue/10 p-2 rounded-lg">
+                <Brain className="h-4 w-4 text-brand-blue" />
+              </div>
+              <p className="text-xs text-slate-500 font-medium">
+                Committed to clinical excellence &amp; child-centred care
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
       </div>
     </section>
   );
