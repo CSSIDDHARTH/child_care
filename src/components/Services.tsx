@@ -82,7 +82,7 @@ export default function Services() {
             Clinical Services
           </span>
           <h2 className="text-3xl md:text-4xl font-display font-bold tracking-tight heading-gradient">
-            Our Comprehensive Therapeutic & Assessment Services
+            Our Expertise
           </h2>
           <div className="mt-4 w-12 h-0.5 bg-brand-blue mx-auto"></div>
           <p className="mt-4 text-base text-slate-500 max-w-2xl mx-auto leading-relaxed font-light">
